@@ -1,4 +1,10 @@
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+    router: {
+      base: '/aesthetic-medicine-web/'
+    }
+  } : {}
 export default {
+    ...routerBase,
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
         title: '美仕媞時尚醫美診所-台北醫美優質診所,提供微整及整形外科項目,專業醫美醫療團隊,肉毒除皺,玻尿酸,抽脂,除毛雷射',
@@ -81,5 +87,9 @@ export default {
             icons: ['fas']
         }
         ]
+    },
+
+    router: {
+        base: '/aesthetic-medicine-web/'
     }
 }

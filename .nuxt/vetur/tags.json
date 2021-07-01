@@ -1,0 +1,47 @@
+{
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "HeaderSubMenu": {
+    "description": "Auto imported from components/Header-SubMenu.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/Header.vue"
+  },
+  "Icons": {
+    "description": "Auto imported from components/Icons.vue"
+  },
+  "NormalItem": {
+    "description": "Auto imported from components/Normal-Item.vue"
+  },
+  "NormalSwiper": {
+    "description": "Auto imported from components/Normal-Swiper.vue"
+  },
+  "ScrollTop": {
+    "description": "Auto imported from components/ScrollTop.vue"
+  },
+  "Title": {
+    "description": "Auto imported from components/Title.vue"
+  },
+  "Loading": {
+    "description": "Auto imported from components/loading.vue"
+  },
+  "BeautyItem": {
+    "description": "Auto imported from components/beautyShare/Beauty-Item.vue"
+  },
+  "Team": {
+    "description": "Auto imported from components/team/Team.vue"
+  },
+  "IndexBeautyShare": {
+    "description": "Auto imported from components/index/Beauty-Share.vue"
+  },
+  "IndexNews": {
+    "description": "Auto imported from components/index/News.vue"
+  },
+  "IndexServiceDetail": {
+    "description": "Auto imported from components/index/Service-Detail.vue"
+  },
+  "IndexService": {
+    "description": "Auto imported from components/index/Service.vue"
+  }
+}
