@@ -1,0 +1,30 @@
+{
+  "name": "max-beauty-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@nuxtjs/axios": "^5.13.1",
+    "core-js": "^3.9.1",
+    "element-ui": "^2.15.1",
+    "less-loader": "^5.0.0",
+    "luxon": "^1.26.0",
+    "node-sass": "^5.0.0",
+    "nuxt": "^2.2.0",
+    "nuxt-fontawesome": "^0.4.0",
+    "swiper": "^5.4.5",
+    "vue-awesome-swiper": "^4.1.1",
+    "weekstart": "^1.1.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/style-resources": "^1.0.0",
+    "babel-plugin-component": "^1.1.1",
+    "sass-loader": "^10.1.1"
+  }
+}
