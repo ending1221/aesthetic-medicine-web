@@ -254,12 +254,12 @@ export default {
             flex-wrap: wrap;
             margin: 0 auto;
             .service-item {
-                flex: 30%;
+                flex: 49%;
                 margin-right: .5%;
                 margin-bottom: .5%;
                 background-color: #EDE8ED;
 
-                &:nth-child(3), &:nth-child(6) {
+                &:nth-child(2), &:nth-child(4) {
                     margin-right: 0;
                 }
                 @media screen and (max-width: 992px) {

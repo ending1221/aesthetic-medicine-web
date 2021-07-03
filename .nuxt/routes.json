@@ -3,222 +3,259 @@
     "name": "beautyShare",
     "path": "/beautyShare",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/beautyShare/index.vue",
-    "chunkName": "pages/beautyShare/index"
+    "chunkName": "pages/beautyShare/index",
+    "_name": "_6ad85c2f"
   },
   {
     "name": "reservation",
     "path": "/reservation",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/reservation.vue",
-    "chunkName": "pages/reservation"
+    "chunkName": "pages/reservation",
+    "_name": "_ad383d96"
   },
   {
     "name": "maxBeauty-about",
     "path": "/maxBeauty/about",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/maxBeauty/about.vue",
-    "chunkName": "pages/maxBeauty/about"
+    "chunkName": "pages/maxBeauty/about",
+    "_name": "_32f233a7"
   },
   {
     "name": "maxBeauty-doctorsColumn",
     "path": "/maxBeauty/doctorsColumn",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/maxBeauty/doctorsColumn/index.vue",
-    "chunkName": "pages/maxBeauty/doctorsColumn/index"
+    "chunkName": "pages/maxBeauty/doctorsColumn/index",
+    "_name": "_d30e9272"
   },
   {
     "name": "maxBeauty-news",
     "path": "/maxBeauty/news",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/maxBeauty/news/index.vue",
-    "chunkName": "pages/maxBeauty/news/index"
+    "chunkName": "pages/maxBeauty/news/index",
+    "_name": "_2f50e928"
   },
   {
     "name": "maxBeauty-price",
     "path": "/maxBeauty/price",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/maxBeauty/price.vue",
-    "chunkName": "pages/maxBeauty/price"
+    "chunkName": "pages/maxBeauty/price",
+    "_name": "_04178363"
   },
   {
     "name": "maxBeauty-team",
     "path": "/maxBeauty/team",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/maxBeauty/team/index.vue",
-    "chunkName": "pages/maxBeauty/team/index"
+    "chunkName": "pages/maxBeauty/team/index",
+    "_name": "_0ce9de76"
   },
   {
     "name": "service-beautyService-btx",
     "path": "/service/beautyService/btx",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/service/beautyService/btx.vue",
-    "chunkName": "pages/service/beautyService/btx"
+    "chunkName": "pages/service/beautyService/btx",
+    "_name": "_582c7fbf"
   },
   {
     "name": "service-beautyService-ellanse",
     "path": "/service/beautyService/ellanse",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/service/beautyService/ellanse.vue",
-    "chunkName": "pages/service/beautyService/ellanse"
+    "chunkName": "pages/service/beautyService/ellanse",
+    "_name": "_ca460986"
   },
   {
     "name": "service-beautyService-hyaluronan",
     "path": "/service/beautyService/hyaluronan",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/service/beautyService/hyaluronan.vue",
-    "chunkName": "pages/service/beautyService/hyaluronan"
+    "chunkName": "pages/service/beautyService/hyaluronan",
+    "_name": "_a9d884c8"
   },
   {
     "name": "service-beautyService-sculptra",
     "path": "/service/beautyService/sculptra",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/service/beautyService/sculptra.vue",
-    "chunkName": "pages/service/beautyService/sculptra"
+    "chunkName": "pages/service/beautyService/sculptra",
+    "_name": "_037a7d11"
   },
   {
     "name": "service-beautySlim-s-body",
     "path": "/service/beautySlim/s-body",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/service/beautySlim/s-body.vue",
-    "chunkName": "pages/service/beautySlim/s-body"
+    "chunkName": "pages/service/beautySlim/s-body",
+    "_name": "_3d7ec281"
   },
   {
     "name": "service-beautySlim-venus-legacy",
     "path": "/service/beautySlim/venus-legacy",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/service/beautySlim/venus-legacy.vue",
-    "chunkName": "pages/service/beautySlim/venus-legacy"
+    "chunkName": "pages/service/beautySlim/venus-legacy",
+    "_name": "_009d689e"
   },
   {
     "name": "service-preventiveMedicine-depiLight",
     "path": "/service/preventiveMedicine/depiLight",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/service/preventiveMedicine/depiLight.vue",
-    "chunkName": "pages/service/preventiveMedicine/depiLight"
+    "chunkName": "pages/service/preventiveMedicine/depiLight",
+    "_name": "_8cc69df0"
   },
   {
     "name": "service-preventiveMedicine-doe",
     "path": "/service/preventiveMedicine/doe",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/service/preventiveMedicine/doe.vue",
-    "chunkName": "pages/service/preventiveMedicine/doe"
+    "chunkName": "pages/service/preventiveMedicine/doe",
+    "_name": "_2da4f346"
   },
   {
     "name": "service-preventiveMedicine-fraxelLaser",
     "path": "/service/preventiveMedicine/fraxelLaser",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/service/preventiveMedicine/fraxelLaser.vue",
-    "chunkName": "pages/service/preventiveMedicine/fraxelLaser"
+    "chunkName": "pages/service/preventiveMedicine/fraxelLaser",
+    "_name": "_ff507ce6"
   },
   {
     "name": "service-preventiveMedicine-ilib",
     "path": "/service/preventiveMedicine/ilib",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/service/preventiveMedicine/ilib.vue",
-    "chunkName": "pages/service/preventiveMedicine/ilib"
+    "chunkName": "pages/service/preventiveMedicine/ilib",
+    "_name": "_0d87cfc0"
   },
   {
     "name": "service-preventiveMedicine-ipl",
     "path": "/service/preventiveMedicine/ipl",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/service/preventiveMedicine/ipl.vue",
-    "chunkName": "pages/service/preventiveMedicine/ipl"
+    "chunkName": "pages/service/preventiveMedicine/ipl",
+    "_name": "_383b98b1"
   },
   {
     "name": "service-preventiveMedicine-laserBeauty",
     "path": "/service/preventiveMedicine/laserBeauty",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/service/preventiveMedicine/laserBeauty.vue",
-    "chunkName": "pages/service/preventiveMedicine/laserBeauty"
+    "chunkName": "pages/service/preventiveMedicine/laserBeauty",
+    "_name": "_48d032b3"
   },
   {
     "name": "service-preventiveMedicine-miraDry",
     "path": "/service/preventiveMedicine/miraDry",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/service/preventiveMedicine/miraDry.vue",
-    "chunkName": "pages/service/preventiveMedicine/miraDry"
+    "chunkName": "pages/service/preventiveMedicine/miraDry",
+    "_name": "_fae0fc28"
   },
   {
     "name": "service-preventiveMedicine-thermage",
     "path": "/service/preventiveMedicine/thermage",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/service/preventiveMedicine/thermage.vue",
-    "chunkName": "pages/service/preventiveMedicine/thermage"
+    "chunkName": "pages/service/preventiveMedicine/thermage",
+    "_name": "_35c4e792"
   },
   {
     "name": "service-preventiveMedicine-ultherapy",
     "path": "/service/preventiveMedicine/ultherapy",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/service/preventiveMedicine/ultherapy.vue",
-    "chunkName": "pages/service/preventiveMedicine/ultherapy"
+    "chunkName": "pages/service/preventiveMedicine/ultherapy",
+    "_name": "_179640fe"
   },
   {
     "name": "service-preventiveMedicine-ultracel-q",
     "path": "/service/preventiveMedicine/ultracel-q",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/service/preventiveMedicine/ultracel-q.vue",
-    "chunkName": "pages/service/preventiveMedicine/ultracel-q"
+    "chunkName": "pages/service/preventiveMedicine/ultracel-q",
+    "_name": "_78c37e26"
   },
   {
     "name": "service-surgerySculpture-autologousFat",
     "path": "/service/surgerySculpture/autologousFat",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/service/surgerySculpture/autologousFat.vue",
-    "chunkName": "pages/service/surgerySculpture/autologousFat"
+    "chunkName": "pages/service/surgerySculpture/autologousFat",
+    "_name": "_085847db"
   },
   {
     "name": "service-surgerySculpture-breastEnlargement",
     "path": "/service/surgerySculpture/breastEnlargement",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/service/surgerySculpture/breastEnlargement.vue",
-    "chunkName": "pages/service/surgerySculpture/breastEnlargement"
+    "chunkName": "pages/service/surgerySculpture/breastEnlargement",
+    "_name": "_1b2903dd"
   },
   {
     "name": "service-surgerySculpture-chinImplant",
     "path": "/service/surgerySculpture/chinImplant",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/service/surgerySculpture/chinImplant.vue",
-    "chunkName": "pages/service/surgerySculpture/chinImplant"
+    "chunkName": "pages/service/surgerySculpture/chinImplant",
+    "_name": "_33d3f312"
   },
   {
     "name": "service-surgerySculpture-eyebag",
     "path": "/service/surgerySculpture/eyebag",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/service/surgerySculpture/eyebag.vue",
-    "chunkName": "pages/service/surgerySculpture/eyebag"
+    "chunkName": "pages/service/surgerySculpture/eyebag",
+    "_name": "_12320bcd"
   },
   {
     "name": "service-surgerySculpture-koreanDoubleEyelid",
     "path": "/service/surgerySculpture/koreanDoubleEyelid",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/service/surgerySculpture/koreanDoubleEyelid.vue",
-    "chunkName": "pages/service/surgerySculpture/koreanDoubleEyelid"
+    "chunkName": "pages/service/surgerySculpture/koreanDoubleEyelid",
+    "_name": "_127765a1"
   },
   {
     "name": "service-surgerySculpture-pda",
     "path": "/service/surgerySculpture/pda",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/service/surgerySculpture/pda.vue",
-    "chunkName": "pages/service/surgerySculpture/pda"
+    "chunkName": "pages/service/surgerySculpture/pda",
+    "_name": "_b9675d72"
   },
   {
     "name": "service-surgerySculpture-rhinoplasty",
     "path": "/service/surgerySculpture/rhinoplasty",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/service/surgerySculpture/rhinoplasty.vue",
-    "chunkName": "pages/service/surgerySculpture/rhinoplasty"
+    "chunkName": "pages/service/surgerySculpture/rhinoplasty",
+    "_name": "_1bb52681"
   },
   {
     "name": "service-surgerySculpture-ultrasoundLipolysis",
     "path": "/service/surgerySculpture/ultrasoundLipolysis",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/service/surgerySculpture/ultrasoundLipolysis.vue",
-    "chunkName": "pages/service/surgerySculpture/ultrasoundLipolysis"
+    "chunkName": "pages/service/surgerySculpture/ultrasoundLipolysis",
+    "_name": "_c38f4baa"
   },
   {
     "name": "service-surgerySculpture-ultraZ",
     "path": "/service/surgerySculpture/ultraZ",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/service/surgerySculpture/ultraZ.vue",
-    "chunkName": "pages/service/surgerySculpture/ultraZ"
+    "chunkName": "pages/service/surgerySculpture/ultraZ",
+    "_name": "_332d9e44"
   },
   {
     "name": "maxBeauty-doctorsColumn-id",
     "path": "/maxBeauty/doctorsColumn/:id",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/maxBeauty/doctorsColumn/_id.vue",
-    "chunkName": "pages/maxBeauty/doctorsColumn/_id"
+    "chunkName": "pages/maxBeauty/doctorsColumn/_id",
+    "_name": "_7883beef"
   },
   {
     "name": "maxBeauty-news-id",
     "path": "/maxBeauty/news/:id",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/maxBeauty/news/_id.vue",
-    "chunkName": "pages/maxBeauty/news/_id"
+    "chunkName": "pages/maxBeauty/news/_id",
+    "_name": "_4ce978d4"
   },
   {
     "name": "maxBeauty-team-id",
     "path": "/maxBeauty/team/:id",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/maxBeauty/team/_id.vue",
-    "chunkName": "pages/maxBeauty/team/_id"
+    "chunkName": "pages/maxBeauty/team/_id",
+    "_name": "_0329065e"
   },
   {
     "name": "beautyShare-id",
     "path": "/beautyShare/:id",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/beautyShare/_id.vue",
-    "chunkName": "pages/beautyShare/_id"
+    "chunkName": "pages/beautyShare/_id",
+    "_name": "_8844c352"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/yau/Documents/coding/git/aesthetic-medicine-web/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_25adf80a"
   }
 ]

@@ -88,9 +88,5 @@ export default {
             icons: ['fas']
         }
         ]
-    },
-
-    router: {
-        base: '/aesthetic-medicine-web/'
     }
 }

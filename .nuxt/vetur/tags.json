@@ -26,6 +26,12 @@
   "Loading": {
     "description": "Auto imported from components/loading.vue"
   },
+  "Team": {
+    "description": "Auto imported from components/team/Team.vue"
+  },
+  "BeautyItem": {
+    "description": "Auto imported from components/beautyShare/Beauty-Item.vue"
+  },
   "IndexBeautyShare": {
     "description": "Auto imported from components/index/Beauty-Share.vue"
   },
@@ -37,11 +43,5 @@
   },
   "IndexService": {
     "description": "Auto imported from components/index/Service.vue"
-  },
-  "BeautyItem": {
-    "description": "Auto imported from components/beautyShare/Beauty-Item.vue"
-  },
-  "Team": {
-    "description": "Auto imported from components/team/Team.vue"
   }
 }
