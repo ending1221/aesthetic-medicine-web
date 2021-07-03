@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/service/beautySlim/s-body", {data:[{}],fetch:{},mutations:[]});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/service/preventiveMedicine/ipl", {data:[{}],fetch:{},mutations:[]});

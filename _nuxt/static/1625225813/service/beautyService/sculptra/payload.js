@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/service/beautyService/sculptra", {data:[{}],fetch:{},mutations:[]});

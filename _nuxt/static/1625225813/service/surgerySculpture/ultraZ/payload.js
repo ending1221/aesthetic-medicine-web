@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/service/surgerySculpture/ultraZ", {data:[{}],fetch:{},mutations:[]});
