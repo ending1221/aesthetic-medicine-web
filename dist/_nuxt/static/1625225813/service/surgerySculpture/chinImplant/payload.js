@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/service/surgerySculpture/chinImplant", {data:[{}],fetch:{},mutations:[]});

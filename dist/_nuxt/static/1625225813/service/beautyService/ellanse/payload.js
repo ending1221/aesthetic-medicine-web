@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/service/beautyService/ellanse", {data:[{}],fetch:{},mutations:[]});

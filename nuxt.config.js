@@ -5,6 +5,7 @@ const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   } : {}
 export default {
     ...routerBase,
+    target: 'static',
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
         title: '美仕媞時尚醫美診所-台北醫美優質診所,提供微整及整形外科項目,專業醫美醫療團隊,肉毒除皺,玻尿酸,抽脂,除毛雷射',
@@ -22,10 +23,10 @@ export default {
         { property:'og:site_name', content: '美仕媞時尚醫美診所' },
         ],
         link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+        { rel: 'icon', type: 'image/x-icon', href: './favicon.ico' }
         ],
         script: [
-        { src: '/simplybook.js'}
+        { src: './simplybook.js'}
         ],
         htmlAttrs: {
             translate: 'no',

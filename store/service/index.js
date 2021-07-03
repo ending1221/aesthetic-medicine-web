@@ -2,64 +2,6 @@
 export const state = () => ({
     service: [
         {
-            name: '除毛專區',
-            nameEn: 'waxing',
-            description: '各部位專業雷射除毛',
-            data: [
-                {
-                    path: '/service/1',
-                    name: '腋下除毛'
-                },
-                {
-                    path: '/service/2',
-                    name: '手/腳毛'
-                },
-                {
-                    path: '/service/2',
-                    name: '鬍鬚/女性鬍鬚'
-                },
-                {
-                    path: '/service/2',
-                    name: '一字眉'
-                },
-                {
-                    path: '/service/2',
-                    name: '多毛症/毛髮倒插'
-                },
-            ]
-        },
-        {
-            name: '私密處專區',
-            nameEn: 'private',
-            description: '妳的私密心事，美仕媞最懂',
-            data: [
-                {
-                    path: '/service/1',
-                    name: '私密處G緊雷射'
-                },
-                {
-                    path: '/service/2',
-                    name: '私密處美白雷射'
-                },
-                {
-                    path: '/service/3',
-                    name: '私密處無痕全除'
-                },
-                {
-                    path: '/service/4',
-                    name: '大陰唇美型'
-                },
-                {
-                    path: '/service/5',
-                    name: '乳暈美白雷射'
-                },
-                {
-                    path: '/service/6',
-                    name: '私密處手術'
-                },
-            ]
-        },
-        {
             name: '美體雕塑',
             nameEn: 'Beauty Slim',
             description: '甩開贅肉，曲線更加迷人',

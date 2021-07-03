@@ -117,7 +117,8 @@ export default {
         position: relative;
         max-width: 1280px;
         max-height: 450px;
-
+        margin: 0 auto;
+        
         @include pad {
             min-height: 80vw;
         }

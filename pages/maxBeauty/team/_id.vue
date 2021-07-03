@@ -84,7 +84,6 @@ export default {
     mounted() {
         console.log('id', parseInt(this.getPageId()));
         let path = `~/assets/img/team/${parseInt(this.getPageId())}`;
-        console.log('path',path);
         
         this.importAll(require.context('~/assets/img/team/', true, /\.jpg$|\.png$/));
         this.getThisIdImg();
@@ -102,12 +101,11 @@ export default {
         },
         getThisIdImg() {
             this.allImages.forEach((img, i)=>{
-                 if (img.pathLong.substring(18,25) === `team/${this.getPageId()}/`) {
+                if (img.pathShort.includes(`/${this.getPageId()}/`)) {
                      let imgName = this.getImgName(img.pathShort);
                      this.images.push(imgName)
-                 }
+                }
             })
-            console.log(this.images);
         }
     }
 }
@@ -123,6 +121,9 @@ export default {
             padding-left: 10%;
             margin: 0 auto;
             margin-bottom: 1.5%;
+            @include xl {
+                padding-left: 0%;
+            }
             @media screen and (max-width: 992px) {
                 padding-left: 15%;
             }

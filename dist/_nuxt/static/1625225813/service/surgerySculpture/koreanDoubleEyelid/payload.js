@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/service/surgerySculpture/koreanDoubleEyelid", {data:[{}],fetch:{},mutations:[]});

@@ -41,8 +41,8 @@ export default {
                 slidesPerView: 3,
                 spaceBetween: 30,
                 navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev'
+                    nextEl: '.news-swiper-outside .swiper-button-next',
+                    prevEl: '.news-swiper-outside .swiper-button-prev'
                 }
             },
             testData: []

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/service/preventiveMedicine/miraDry", {data:[{}],fetch:{},mutations:[]});

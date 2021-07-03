@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/maxBeauty/about", {data:[{}],fetch:{},mutations:[]});
