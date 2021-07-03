@@ -7,7 +7,8 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
@@ -26,6 +27,7 @@
   "devDependencies": {
     "@nuxtjs/style-resources": "^1.0.0",
     "babel-plugin-component": "^1.1.1",
+    "gh-pages": "^3.2.3",
     "sass-loader": "^10.1.1"
   }
 }
