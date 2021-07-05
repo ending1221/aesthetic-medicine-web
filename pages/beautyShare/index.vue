@@ -8,7 +8,8 @@
         <BeautyItem 
             :beautyData="beautyData"
         />
-        <p>{{beautyData}}</p>
+        <p>currentPage: {{currentPage}}</p>
+        <p>beautyData: {{beautyData}}</p>
         <el-pagination
             :pager-count="11"
             layout="prev, pager, next"

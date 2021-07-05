@@ -58,7 +58,6 @@ export default {
         const getPageCount = () => {
             return Math.ceil(testData.length / parPage);
         }
-        console.log(getItems());
 
         return {
             pageId: currentPage,
