@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/service/beautyService/btx", {data:[{}],fetch:{},mutations:[]});

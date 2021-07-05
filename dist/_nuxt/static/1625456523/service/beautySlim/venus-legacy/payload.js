@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/service/beautySlim/venus-legacy", {data:[{}],fetch:{},mutations:[]});

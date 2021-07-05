@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/service/preventiveMedicine/ilib", {data:[{}],fetch:{},mutations:[]});

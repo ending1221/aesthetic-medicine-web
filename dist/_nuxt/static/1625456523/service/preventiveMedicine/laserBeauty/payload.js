@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/service/preventiveMedicine/laserBeauty", {data:[{}],fetch:{},mutations:[]});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/service/surgerySculpture/eyebag", {data:[{}],fetch:{},mutations:[]});

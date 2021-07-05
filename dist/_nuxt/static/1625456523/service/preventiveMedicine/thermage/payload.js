@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/service/preventiveMedicine/thermage", {data:[{}],fetch:{},mutations:[]});
