@@ -10,6 +10,7 @@
         />
         <p>pageId: {{pageId}}</p>
         <p>beautyData: {{beautyData}}</p>
+        <p>currentId: {{currentId}}</p>
         <el-pagination
             :pager-count="11"
             layout="prev, pager, next"
@@ -37,6 +38,7 @@ export default {
         // test data 
         // context.query.page 可抓到 ?page=1 的參數
         const currentPage = context.query.page || 1;
+        const currentId = context.query.page;
         const parPage = 10;
         let testData = [];
         let arr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30];
@@ -59,6 +61,7 @@ export default {
         }
 
         return {
+            currentId: currentId,
             pageId: currentPage,
             beautyData: getItems(),
             pageCount: getPageCount(),
