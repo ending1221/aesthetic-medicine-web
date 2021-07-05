@@ -23,10 +23,10 @@ export default {
         { property:'og:site_name', content: '美仕媞時尚醫美診所' },
         ],
         link: [
-        { rel: 'icon', type: 'image/x-icon', href: './favicon.ico' }
+        { rel: 'icon', type: 'image/x-icon', href: '../favicon.ico' }
         ],
         script: [
-        { src: './simplybook.js'}
+        { src: '../simplybook.js'}
         ],
         htmlAttrs: {
             translate: 'no',
