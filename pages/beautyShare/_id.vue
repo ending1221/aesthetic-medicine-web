@@ -2,7 +2,7 @@
     <div class="page-container">
          <el-breadcrumb>
             <el-breadcrumb-item :to="{ path: '/' }" >首頁</el-breadcrumb-item>
-            <el-breadcrumb-item>美麗分享</el-breadcrumb-item>
+            <el-breadcrumb-item :to="{ path: '/beautyShare' }">美麗分享</el-breadcrumb-item>
             <el-breadcrumb-item>標題{{id}}</el-breadcrumb-item>
         </el-breadcrumb>
        <div class="article-container">
