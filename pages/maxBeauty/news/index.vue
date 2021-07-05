@@ -10,6 +10,7 @@
             :data="newsData"
             pageName="news"
         />
+        {{newsData}}
         <el-pagination
             :pager-count="11"
             layout="prev, pager, next"
