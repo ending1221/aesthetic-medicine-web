@@ -3954,10 +3954,10 @@ async function createApp(ssrContext, config = {}) {
       "link": [{
         "rel": "icon",
         "type": "image\u002Fx-icon",
-        "href": "..\u002Ffavicon.ico"
+        "href": "\u002Ffavicon.ico"
       }],
       "script": [{
-        "src": "..\u002Fsimplybook.js"
+        "src": "\u002Fsimplybook.js"
       }],
       "style": []
     },
