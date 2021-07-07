@@ -86,7 +86,7 @@
                 <span class="form-star">*</span>
             </p>
             <textarea name="advisory" id="advisory"></textarea>
-            <button class="btn">送出</button>
+            <div class="btn" @click="verifyFrom">送出</div>
         </form>
         <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14456.78059784499!2d121.5494527!3d25.061374!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x22a6a0dfb1740c3c!2z576O5LuV5aqe5pmC5bCa6Yar576O6Ki65omA!5e0!3m2!1szh-TW!2stw!4v1620288484663!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
@@ -101,13 +101,45 @@ export default {
     },
     data() {
         return {
-            name: null,
-            birthday: null,
-            phone: null,
-            mail: null,
-            checkedArr: []
+            name: '',
+            birthday: '',
+            phone: '',
+            mail: '',
+            checkedArr: [],
+            error: {
+                name: false,
+                birthday: false,
+                phone: false,
+                mail: false,
+                checkedArr: false
+            }
         }
     },
+    methods: {
+        verifyFrom() {
+            let isMail = /^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z]+$/;
+
+            this.error.name = this.name.length > 0 ? false : true;
+            this.error.birthday = this.birthday === '' ? true : false;
+            this.error.phone = this.phone.length === 10 ? false : true;
+            this.error.mail = !isMail.test(this.mail) ? true : false;
+            this.error.checkedArr = this.checkedArr.length === 0 ? true : false;
+
+            this.checkHasError();
+        },
+        checkHasError() {
+            let errorArr = [];
+            Object.keys(this.error).forEach(i=>{
+                errorArr.push(this.error[i]); 
+            })
+            const notFindError = (e) => {
+                return e === false
+            }
+            console.log('errorArr', errorArr);
+            console.log('notFindError', errorArr.every(notFindError));
+            return
+        }
+    }
     
 }
 
@@ -163,6 +195,7 @@ export default {
         }
         .btn {
             margin-top: 5%;
+            display: inline-block;
             @include mobile {
                 width: 100%;
             }
