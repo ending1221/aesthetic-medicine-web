@@ -13,7 +13,8 @@
                     <div class="form-item-title">姓名
                         <span class="form-star">*</span>
                     </div>
-                    <input class="form-item-input" v-model="name" type="text" />
+                    <input class="form-item-input" :class="{'error': error.name}" v-model="name" type="text" />
+                    <p v-show="error.name" class="error">* 請填寫姓名</p>
                 </label>
                 <div class="form-item">
                     <div class="form-item-title">生日
@@ -25,18 +26,21 @@
                         placeholder="選擇日期"
                     >
                     </el-date-picker>
+                    <p v-show="error.birthday" class="error">* 請選擇生日</p>
                 </div>
                 <label class="form-item">
-                    <div class="form-item-title">聯絡電話
+                    <div class="form-item-title">手機號碼
                         <span class="form-star">*</span>
                     </div>
                     <input class="form-item-input" v-model="phone"  type="text" />
+                    <p v-show="error.phone" class="error">* 請填寫正確的手機號碼</p>
                 </label>
                 <label class="form-item">
                     <div class="form-item-title">E-mail
                         <span class="form-star">*</span>
                     </div>
                     <input class="form-item-input" v-model="mail"  type="mail" />
+                    <p v-show="error.mail" class="error">* 請填寫正確的 E-mail</p>
                 </label>
             </div>
             <p class="form-title">諮詢項目 (可複選)
@@ -80,11 +84,10 @@
                     <input type="checkbox" id="cbox9" v-model="checkedArr" value="私密保養">
                     <span>私密保養</span>
                 </label>
+                <p v-show="error.checkedArr" class="error">* 請至少勾選一個項目</p>
             </div>
 
-            <p class="form-title">諮詢內容
-                <span class="form-star">*</span>
-            </p>
+            <p class="form-title">諮詢內容</p>
             <textarea name="advisory" id="advisory"></textarea>
             <div class="btn" @click="verifyFrom">送出</div>
         </form>
@@ -269,6 +272,11 @@ export default {
             border: 1px solid rgba(51,51,51,0.2);
             margin-top: 1.5%;
         }
+    }
+    .error {
+        color:#FF3333;
+        font-size: 80%;
+        font-weight: 200;
     }
     
 </style>
