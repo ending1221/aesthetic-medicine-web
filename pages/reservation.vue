@@ -32,7 +32,7 @@
                     <div class="form-item-title">手機號碼
                         <span class="form-star">*</span>
                     </div>
-                    <input class="form-item-input" v-model="phone"  type="text" />
+                    <input class="form-item-input" v-model="phone" type="number" max="9999999999" />
                     <p v-show="error.phone" class="error">* 請填寫正確的手機號碼</p>
                 </label>
                 <label class="form-item">
@@ -88,10 +88,30 @@
             </div>
 
             <p class="form-title">諮詢內容</p>
-            <textarea name="advisory" id="advisory"></textarea>
+            <textarea name="advisory" id="advisory" v-model="advisory"></textarea>
             <div class="btn" @click="verifyFrom">送出</div>
         </form>
         <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14456.78059784499!2d121.5494527!3d25.061374!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x22a6a0dfb1740c3c!2z576O5LuV5aqe5pmC5bCa6Yar576O6Ki65omA!5e0!3m2!1szh-TW!2stw!4v1620288484663!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        <div class="alert" :class="{'show': showAlert}">
+            <div class="alert-bg"></div>
+            <div class="alert-content">
+                <div class="close" @click="closeAlert">x</div>
+                <h2>已成功預約!</h2>
+                <p>我們已收到您的預約，將儘快與您聯繫，感謝您的等待與支持。</p>
+                <div class="reservation-data">
+                    <h3>以下為您本次的預約資訊：</h3>
+                    <ul>
+                        <li>姓名：{{name}}</li>
+                        <li>電話：{{phone}}</li>
+                        <li>生日：{{birthday}}</li>
+                        <li>E-mail：{{mail}}</li>
+                        <li>諮詢項目：{{getCheckedListText}}</li>
+                        <li>諮詢內容：{{advisory}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -104,11 +124,13 @@ export default {
     },
     data() {
         return {
+            showAlert: false,
             name: '',
             birthday: '',
             phone: '',
             mail: '',
             checkedArr: [],
+            advisory: '',
             error: {
                 name: false,
                 birthday: false,
@@ -140,15 +162,114 @@ export default {
             }
             console.log('errorArr', errorArr);
             console.log('notFindError', errorArr.every(notFindError));
+
+            if (errorArr.every(notFindError)) {
+                this.showAlert = true;
+            }
+
             return
+        },
+        closeAlert() {
+            this.showAlert = false;
+        }
+    },
+    computed: {
+        getCheckedListText() {
+            let text = '';
+            if (this.checkedArr.length > 0) {
+                this.checkedArr.forEach(item => {
+                    text += `${item}、`            
+                })
+                text = text.slice(0, text.length-1);
+                console.log('text',text);
+            }
+            return text
+        },
+    },
+    watch: {
+        phone: function() {
+            if (this.phone.length > 10) {
+                this.error.phone = true;
+            } else {
+                this.error.phone = false;
+            }
         }
     }
-    
 }
 
 </script>
 
 <style lang="scss">
+    .alert {
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 9999;
+        display: none;
+        .alert-bg {
+            width: 100%;
+            height: 100%;
+            background-color: rgba(#333, 0.8);
+        }
+        .alert-content {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            border-radius: 1rem;
+            width: 50vw;
+            max-width: 800px;
+            height: 80vh;
+            z-index: 99999;
+            padding: 2rem 4rem;
+            box-sizing: border-box;
+            .close {
+                position: absolute;
+                right: 0;
+                top: 0;
+                transform: translateX(150%);
+                color: #fff;
+                cursor: pointer;
+                font-size: 150%;
+            }
+            .reservation-data {
+                margin-top: 5%;
+                padding: 2.5% 5%;
+                border-top: #8E2E63 1px solid;
+            }
+            h2 {
+                color: #8E2E63;
+                text-align: center;
+                margin-bottom: 1%;
+            }
+            h3 {
+                font-weight: 300;
+                margin-top: 3%;
+                color: #8E2E63;
+                text-align: center;
+            }
+            p {
+                text-align: center;
+                font-size: 90%;
+                opacity: 0.9;
+                letter-spacing: 1px;
+            }
+            ul {
+                margin-top: 3%;
+            }
+            li {
+                font-weight: 300;
+                line-height: 150%;
+                letter-spacing: 1px;
+            }
+        }
+    }
+    .alert.show {
+        display: block;
+    }
     #reservation-page {
         iframe {
             @include mobile {
