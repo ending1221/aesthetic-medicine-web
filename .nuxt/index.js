@@ -14,6 +14,7 @@ import { createStore } from './store.js'
 /* Plugins */
 
 import nuxt_plugin_plugin_b96ee4a6 from 'nuxt_plugin_plugin_b96ee4a6' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_dayjsplugin_69f5033a from 'nuxt_plugin_dayjsplugin_69f5033a' // Source: ./dayjs-plugin.js (mode: 'all')
 import nuxt_plugin_templatesplugin498631a0_67147e83 from 'nuxt_plugin_templatesplugin498631a0_67147e83' // Source: ./templates.plugin.498631a0.js (mode: 'all')
 import nuxt_plugin_axios_e80fd77a from 'nuxt_plugin_axios_e80fd77a' // Source: ./axios.js (mode: 'all')
 import nuxt_plugin_fontawesome_47952b5b from 'nuxt_plugin_fontawesome_47952b5b' // Source: ../plugins/font-awesome (mode: 'all')
@@ -217,6 +218,10 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_plugin_b96ee4a6 === 'function') {
     await nuxt_plugin_plugin_b96ee4a6(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_dayjsplugin_69f5033a === 'function') {
+    await nuxt_plugin_dayjsplugin_69f5033a(app.context, inject)
   }
 
   if (typeof nuxt_plugin_templatesplugin498631a0_67147e83 === 'function') {

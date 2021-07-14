@@ -32,15 +32,15 @@
                     <div class="form-item-title">手機號碼
                         <span class="form-star">*</span>
                     </div>
-                    <input class="form-item-input" v-model="phone" type="number" max="9999999999" />
+                    <input class="form-item-input" v-model="checkNum" type="text" ref="phone"/>
                     <p v-show="error.phone" class="error">* 請填寫正確的手機號碼</p>
                 </label>
                 <label class="form-item">
                     <div class="form-item-title">E-mail
                         <span class="form-star">*</span>
                     </div>
-                    <input class="form-item-input" v-model="mail"  type="mail" />
-                    <p v-show="error.mail" class="error">* 請填寫正確的 E-mail</p>
+                    <input class="form-item-input" v-model.lazy="email"  type="mail" />
+                    <p v-show="error.email" class="error">* {{emailErrMsg}}</p>
                 </label>
             </div>
             <p class="form-title">諮詢項目 (可複選)
@@ -104,8 +104,8 @@
                     <ul>
                         <li>姓名：{{name}}</li>
                         <li>電話：{{phone}}</li>
-                        <li>生日：{{birthday}}</li>
-                        <li>E-mail：{{mail}}</li>
+                        <li>生日：{{formatBir}}</li>
+                        <li>E-mail：{{email}}</li>
                         <li>諮詢項目：{{getCheckedListText}}</li>
                         <li>諮詢內容：{{advisory}}</li>
                     </ul>
@@ -128,27 +128,33 @@ export default {
             name: '',
             birthday: '',
             phone: '',
-            mail: '',
+            email: '',
+            emailErrMsg: '',
             checkedArr: [],
             advisory: '',
             error: {
                 name: false,
                 birthday: false,
                 phone: false,
-                mail: false,
+                email: false,
                 checkedArr: false
             }
         }
     },
     methods: {
         verifyFrom() {
-            let isMail = /^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z]+$/;
 
             this.error.name = this.name.length > 0 ? false : true;
             this.error.birthday = this.birthday === '' ? true : false;
             this.error.phone = this.phone.length === 10 ? false : true;
-            this.error.mail = !isMail.test(this.mail) ? true : false;
             this.error.checkedArr = this.checkedArr.length === 0 ? true : false;
+
+            if (!this.isEmail()) {
+                this.error.email = true;
+                this.emailErrMsg = '請填寫 E-mail'
+            } else {
+                this.error.email = false;
+            }
 
             this.checkHasError();
         },
@@ -167,10 +173,22 @@ export default {
                 this.showAlert = true;
             }
 
-            return
+            return 
         },
         closeAlert() {
             this.showAlert = false;
+            this.initForm();
+        },
+        isEmail() {
+            var isMail = /^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z]+$/;
+            return isMail.test(this.email)
+        },
+        initForm() {
+            Object.keys(this.error).forEach(i=>{
+                this.error[i] = false;
+            })
+            Object.assign(this.$data, this.$options.data());
+            console.log(this.error);
         }
     },
     computed: {
@@ -181,17 +199,45 @@ export default {
                     text += `${item}、`            
                 })
                 text = text.slice(0, text.length-1);
-                console.log('text',text);
             }
             return text
         },
+        checkNum: {
+            get () {
+                return this.phone
+            },
+            set (val) {
+                const reg = /^-$|^-?\d+(\.\d+)?$/;
+                if (reg.exec(val)) {
+                    this.$refs.phone.value = val;
+                    this.phone = val;
+                    
+                } else {
+                    val = val.substring(0, val.length - 1);
+                    this.$refs.phone.value = val;
+                }
+            }
+        },
+        formatBir() {
+            return this.$dayjs(this.birthday).format('YYYY-MM-DD')
+        }
     },
     watch: {
         phone: function() {
-            if (this.phone.length > 10) {
+            if (this.phone.toString().length > 10) {
                 this.error.phone = true;
             } else {
                 this.error.phone = false;
+            }
+        },
+        email: function() {
+            if(this.email === '') return
+            if (!this.isEmail()) {
+                this.error.email = true;
+                this.emailErrMsg = 'E-mail 格式錯誤';
+            }
+            else {
+                this.error.email = false;
             }
         }
     }
@@ -222,7 +268,7 @@ export default {
             border-radius: 1rem;
             width: 50vw;
             max-width: 800px;
-            height: 80vh;
+            max-height: 80vh;
             z-index: 99999;
             padding: 2rem 4rem;
             box-sizing: border-box;
@@ -236,9 +282,12 @@ export default {
                 font-size: 150%;
             }
             .reservation-data {
-                margin-top: 5%;
                 padding: 2.5% 5%;
-                border-top: #8E2E63 1px solid;
+                letter-spacing: 1px;
+                font-size: 90%;
+                li {
+                    line-height: 150%;
+                }
             }
             h2 {
                 color: #8E2E63;

@@ -63,6 +63,7 @@ export default {
         '@nuxtjs/axios',
         // https://fontawesome.com/
         'nuxt-fontawesome',
+        '@nuxtjs/dayjs'
     ],
 
     // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -87,5 +88,14 @@ export default {
             icons: ['fas']
         }
         ]
+    },
+    dayjs: {
+        locales: ['zh', 'en'],
+        defaultLocale: 'zh',
+        defaultTimeZone: 'Asia/Taiwan',
+        plugins: [
+          'utc', // import 'dayjs/plugin/utc'
+          'timezone' // import 'dayjs/plugin/timezone'
+        ] // Your Day.js plugin
     }
 }
