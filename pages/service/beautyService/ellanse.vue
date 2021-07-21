@@ -9,7 +9,11 @@
         <Title title="洢蓮絲重返少女肌" titleEn="ELLANSE" />
        
         <div class="article-container service-page">
-            <img src="~/assets/img/service/beautyService/ellanse/banner.jpg" alt="洢蓮絲">
+            <picture>
+                <source srcset="~/assets/img/service/beautyService/ellanse/banner.webp" type="image/webp">
+                <img src="~/assets/img/service/beautyService/ellanse/banner.jpg" alt="洢蓮絲">
+            </picture>
+            
             <h2>洢蓮絲</h2>
             <iframe src="https://www.youtube.com/embed/mgnff0VUi6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
@@ -20,10 +24,17 @@
             <p>微聚脂晶球隨著時間會刺激膠原蛋白的新生微肌膚持續搭建澎潤的3D填補結構，有效提供1-2年的撫平皺紋效果</p>
             <div class="img-block">
                 <div class="img-block-item">
-                    <img src="~/assets/img/service/beautyService/ellanse/1.png" alt="Ellanse 洢蓮絲原理">
+                    <picture>
+                        <source srcset="~/assets/img/service/beautyService/ellanse/1.webp" type="image/webp">
+                        <img src="~/assets/img/service/beautyService/ellanse/1.png" alt="Ellanse 洢蓮絲原理">
+                    </picture>
+                    
                 </div>
                 <div class="img-block-item">
-                     <img src="~/assets/img/service/beautyService/ellanse/2.png" alt="Ellanse 洢蓮絲原理">
+                    <picture>
+                        <source srcset="~/assets/img/service/beautyService/ellanse/2.webp" type="image/webp">
+                        <img src="~/assets/img/service/beautyService/ellanse/2.png" alt="Ellanse 洢蓮絲原理">
+                    </picture>
                 </div>
             </div>
         </div>
@@ -34,7 +45,10 @@
                 <li>聚已內酯(polycaprolactone,PCL)製成的25-50微米(pu)的完美微行晶球</li>
                 <li>PBS-生物降解材料(carboxymethylcellulose,CMC)製成的凝膠體</li>
             </ul>
-            <img class="w-50" src="~/assets/img/service/beautyService/ellanse/ellanse-組合1.jpg" alt="Ellanse 組合示意圖">
+            <picture>
+                <source srcset="~/assets/img/service/beautyService/ellanse/ellanse-組合1.webp" type="image/webp">
+                <img class="w-50" src="~/assets/img/service/beautyService/ellanse/ellanse-組合1.jpg" alt="Ellanse 組合示意圖">
+            </picture>
         </div>
          
         <div class="article-container">
@@ -44,10 +58,16 @@
                 <li>CMC凝膠體提供了即時的填充與皺紋修復，經由刺激膠原蛋白再生，自體新生的膠原蛋白，可達到長效的持續性填充，最後漸進式被巨噬細胞吸收。</li>
                 <li>PCL微型晶球刺激自體膠原蛋白再生，最後水解成二氧化碳雨水。</li>
             </ul>
-            <img class="w-50" src="~/assets/img/service/beautyService/ellanse/ellanse-組合2.jpg" alt="Ellanse PCL&CMC示意圖">
+            <picture>
+                <source srcset="~/assets/img/service/beautyService/ellanse/ellanse-組合2.webp" type="image/webp">
+                <img class="w-50" src="~/assets/img/service/beautyService/ellanse/ellanse-組合2.jpg" alt="Ellanse PCL&CMC示意圖">
+            </picture>
         </div>
         <div class="article-container">
-            <img   src="~/assets/img/service/beautyService/ellanse/4.png" alt="PCL">
+            <picture>
+                <source srcset="~/assets/img/service/beautyService/ellanse/4.webp" type="image/webp">
+                <img src="~/assets/img/service/beautyService/ellanse/4.png" alt="PCL">
+            </picture>
             <h4>PCL微型晶球隨著時間被身體吸收，自體再生的優質膠原蛋白漸漸填補原來的晶球的空間。</h4>
         </div>
          
@@ -57,10 +77,16 @@
             <p>PS.研究者使用全球審美改善標準GAIS(Aesthetic Global lmprovement Scale)</p>
             <div class="img-block">
                 <div class="img-block-item">
-                    <img src="~/assets/img/service/beautyService/ellanse/5.jpg" alt="Ellanse洢蓮絲-安全性">
+                    <picture>
+                        <source srcset="~/assets/img/service/beautyService/ellanse/5.webp" type="image/webp">
+                        <img src="~/assets/img/service/beautyService/ellanse/5.jpg" alt="Ellanse洢蓮絲-安全性">
+                    </picture>
                 </div>
                 <div class="img-block-item">
-                     <img src="~/assets/img/service/beautyService/ellanse/6.jpg" alt="Ellanse洢蓮絲-安全性">
+                    <picture>
+                        <source srcset="~/assets/img/service/beautyService/ellanse/6.webp" type="image/webp">
+                        <img src="~/assets/img/service/beautyService/ellanse/6.jpg" alt="Ellanse洢蓮絲-安全性">
+                    </picture>
                 </div>
             </div>
         </div>
@@ -101,7 +127,10 @@
                 <li>+ 治療項目：飽滿額頭及夫妻宮</li>
                 <li>+ 總使用劑量 3ml</li>
             </ul>
-            <img   src="~/assets/img/service/beautyService/ellanse/案例1.png" alt="案例1">
+            <picture>
+                <source srcset="~/assets/img/service/beautyService/ellanse/案例1.webp" type="image/webp">
+                <img src="~/assets/img/service/beautyService/ellanse/案例1.png" alt="案例1">
+            </picture>
             <p>療程效果會因個人體質而有所差異</p>
         </div>
          
@@ -111,7 +140,10 @@
                 <li>+ 治療項目：眉眼拉提、顴骨飽滿、法令紋改善、下巴雕塑</li>
                 <li>+ 總使用劑量 10ml</li>
             </ul>
-            <img   src="~/assets/img/service/beautyService/ellanse/案例2.png" alt="案例2">
+            <picture>
+                <source srcset="~/assets/img/service/beautyService/ellanse/案例2.webp" type="image/webp">
+                <img src="~/assets/img/service/beautyService/ellanse/案例2.png" alt="案例2">
+            </picture>
             <p>療程效果會因個人體質而有所差異</p>
         </div>
          
@@ -121,7 +153,10 @@
                 <li>+ 治療項目：圓滿額頭、夫妻宮填補、顴骨飽滿</li>
                 <li>+ 總使用劑量 8ml</li>
             </ul>
-            <img   src="~/assets/img/service/beautyService/ellanse/案例3.png" alt="案例3">
+            <picture>
+                <source srcset="~/assets/img/service/beautyService/ellanse/案例3.webp" type="image/webp">
+                <img src="~/assets/img/service/beautyService/ellanse/案例3.png" alt="案例3">
+            </picture>
             <p>療程效果會因個人體質而有所差異</p>
         </div>
          
@@ -131,7 +166,10 @@
                 <li>+ 治療項目：夫妻宮填補、眼袋修飾、中臉拉提、下巴雕塑</li>
                 <li>+ 總使用劑量 4ml</li>
             </ul>
-            <img   src="~/assets/img/service/beautyService/ellanse/案例4.png" alt="案例4">
+            <picture>
+                <source srcset="~/assets/img/service/beautyService/ellanse/案例4.webp" type="image/webp">
+                <img src="~/assets/img/service/beautyService/ellanse/案例4.png" alt="案例4">
+            </picture>
             <p>療程效果會因個人體質而有所差異</p>
         </div>
          
@@ -151,7 +189,10 @@
          
         <div class="article-container">
             <h2>Ellanse洢蓮絲 原產認證</h2>
-            <img   src="~/assets/img/service/beautyService/ellanse/原產證.jpg" alt="原廠認證證書">
+            <picture>
+                <source srcset="~/assets/img/service/beautyService/ellanse/原產證.webp" type="image/webp">
+                <img src="~/assets/img/service/beautyService/ellanse/原產證.jpg" alt="原廠認證證書">
+            </picture>
         </div>
         <div class="article-container">
             <h2>常見問與答</h2>

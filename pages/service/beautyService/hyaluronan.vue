@@ -9,14 +9,20 @@
         <Title title="玻尿酸" titleEn="HYALURONAN" />
        
         <div class="article-container service-page">
-            <img src="~/assets/img/service/beautyService/hyaluronan/banner.jpg" alt="玻尿酸 Banner">
+            <picture>
+                <source srcset="~/assets/img/service/beautyService/hyaluronan/banner.webp" type="image/webp">
+                <img src="~/assets/img/service/beautyService/hyaluronan/banner.jpg" alt="玻尿酸 Banner">
+            </picture>
             <p>隨著微整技術不斷發達，逆轉青春之路不再遙不可及，近年來，新世代女性的完美期待，不只是看起來年輕，更希望擁有自然豐潤的好氣色，展現宛如公主、貴婦般的澎潤美肌，而美麗機密，就蘊藏於先進、安全的Princess公主玻尿酸注射療程。</p>
         </div>
          
         <div class="article-container">
             <h2>玻尿酸治療原理</h2>
             <p>Princess 公主玻尿酸是經由微生物發酵而來的凝膠型玻尿酸，具有高度黏稠性與理想的彈性，提高注射的順暢與舒適度且塑型自然，是根據高安全標準檢驗法規製成，並通過毒理學及生物相容性試驗，不致敏且安全穩定。公主玻尿酸分為大中小分子劑型，依照不同的需求施打不同的部位。 小分子劑型添加甘油，加強補水作用、改善肌膚保濕力與彈性，並達到持久的保水效果，適用於淺層紋路，如眼唇細紋、頸部或手部紋路。</p>
-            <img   src="~/assets/img/service/beautyService/hyaluronan/1.jpg" alt="玻尿酸治療原理">
+            <picture>
+                <source srcset="~/assets/img/service/beautyService/hyaluronan/1.webp" type="image/webp">
+                <img src="~/assets/img/service/beautyService/hyaluronan/1.jpg" alt="玻尿酸治療原理">
+            </picture>
             <ol>
                 <li>不像傳統玻尿酸容易有結塊問題</li>
                 <li>注射過程只需15~30分鐘，可立即恢復日常生活</li>
@@ -27,7 +33,10 @@
          
         <div class="article-container">
             <h2>適用對象</h2>
-            <img   src="~/assets/img/service/beautyService/hyaluronan/2.jpg" alt="適用對象">
+            <picture>
+                <source srcset="~/assets/img/service/beautyService/hyaluronan/2.webp" type="image/webp">
+                <img src="~/assets/img/service/beautyService/hyaluronan/2.jpg" alt="適用對象">
+            </picture>
             <ul>
                 <li>✔ 欲改善深度皺紋，如法令紋、木偶紋眼、唇周細紋等</li>
                 <li>✔ 欲改善臉部凹陷狀態者</li>
@@ -37,7 +46,10 @@
         <div class="article-container">
             <h2>美麗案例</h2>
             <h4>玻尿酸 豐唇</h4>
-            <img   src="~/assets/img/service/beautyService/hyaluronan/案例1.png" alt="案例1">
+            <picture>
+                <source srcset="~/assets/img/service/beautyService/hyaluronan/案例1.webp" type="image/webp">
+                <img src="~/assets/img/service/beautyService/hyaluronan/案例1.png" alt="案例1">
+            </picture>
             <p>療程效果會因個人體質而有所差異</p>
         </div>
          

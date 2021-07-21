@@ -5,16 +5,29 @@
                 className="index"
                 :navigation="false">
                 <swiper-slide class="index-swiper-inside">
-                    <img class="swiper-img" src="~/assets/img/indexBanner/1.png"/>
+                    <picture>
+                        <source srcset="~/assets/img/indexBanner/1.webp" type="image/webp">
+                        <img  class="swiper-img" src="~/assets/img/indexBanner/1.png" alt="index banner">
+                    </picture>
                 </swiper-slide>
                 <swiper-slide class="index-swiper-inside">
+                    <picture>
+                        <source srcset="~/assets/img/indexBanner/1.webp" type="image/webp">
+                        <img  class="swiper-img" src="~/assets/img/indexBanner/1.png" alt="index banner">
+                    </picture>
                     <img class="swiper-img" src="~/assets/img/indexBanner/2.png"/>
                 </swiper-slide>
                 <swiper-slide class="index-swiper-inside">
-                    <img class="swiper-img" src="~/assets/img/indexBanner/3.png"/>
+                    <picture>
+                        <source srcset="~/assets/img/indexBanner/3.webp" type="image/webp">
+                        <img  class="swiper-img" src="~/assets/img/indexBanner/3.png" alt="index banner">
+                    </picture>
                 </swiper-slide> 
                 <swiper-slide class="index-swiper-inside">
-                    <img class="swiper-img" src="~/assets/img/indexBanner/4.png"/>
+                    <picture>
+                        <source srcset="~/assets/img/indexBanner/4.webp" type="image/webp">
+                        <img  class="swiper-img" src="~/assets/img/indexBanner/4.png" alt="index banner">
+                    </picture>
                 </swiper-slide> 
                 <div id="index-text-group">
                     <h1 class="title">「美。無界限」</h1>
@@ -35,8 +48,12 @@
                     <picture class="swiper-img">
                         <source 
                             media="(max-width:768px)" 
-                            :srcset="require(`~/assets/img/events/mobile/${getImgName(img.pathShort)}`)">
-                        <img :src="require(`~/assets/img/events/${getImgName(img.pathShort)}`)" />
+                            :srcset="require(`~/assets/img/events/mobile/${getImgName(img.pathShort)}.webp`)" type="image/webp">
+                        <source 
+                            media="(max-width:768px)" 
+                            :srcset="require(`~/assets/img/events/mobile/${getImgName(img.pathShort)}.jpg`)">
+                        <source :srcset="require(`~/assets/img/events/${getImgName(img.pathShort)}.webp`)" type="image/webp">
+                        <img :src="require(`~/assets/img/events/${getImgName(img.pathShort)}.jpg`)" />
                     </picture>
                 </swiper-slide>
             </NormalSwiper>
@@ -104,7 +121,7 @@ export default {
             r.keys().forEach(key => (arr.push({ pathLong: r(key), pathShort: key })));
         },
         getImgName(path) {
-            return path.substring(2, path.length)
+            return path.substring(2, path.length - 4)
         },
         importEventImg() {
             this.importAll(require.context('~/assets/img/events/', false, /\.jpg$|\.png$/), this.eventImg);

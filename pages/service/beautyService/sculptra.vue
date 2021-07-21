@@ -9,7 +9,10 @@
         <Title title="舒顏萃/3D聚左旋乳酸" titleEn="SCULPTRA" />
        
         <div class="article-container service-page">
-            <img src="~/assets/img/service/beautyService/sculptra/banner.jpg" alt="舒顏萃/3D聚左旋乳酸 Banner">
+            <picture>
+                <source srcset="~/assets/img/service/beautyService/sculptra/banner.webp" type="image/webp">
+                <img src="~/assets/img/service/beautyService/sculptra/banner.jpg" alt="舒顏萃/3D聚左旋乳酸 Banner">
+            </picture>
         </div>
          
         <div class="article-container">
@@ -22,7 +25,10 @@
          
         <div class="article-container">
             <h2>舒顏萃 Sculptra®的治療原理</h2>
-            <img   src="~/assets/img/service/beautyService/sculptra/1.png" alt="舒顏萃 Sculptra®的治療原理">
+            <picture>
+                <source srcset="~/assets/img/service/beautyService/sculptra/1.webp" type="image/webp">
+                <img src="~/assets/img/service/beautyService/sculptra/1.png" alt="舒顏萃 Sculptra®的治療原理">
+            </picture>
             <ul>
                 <li>✔ 欲改善深度皺紋，如法令紋、木偶紋眼、唇周細紋等</li>
                 <li>✔ 欲改善臉部凹陷狀態者</li>
@@ -54,12 +60,18 @@
         <div class="article-container">
             <h2>美麗案例</h2>
             <h4>接受3次注射，總計5瓶療程</h4>
-            <img   src="~/assets/img/service/beautyService/sculptra/案例1.jpg" alt="案例1">
+            <picture>
+                <source srcset="~/assets/img/service/beautyService/sculptra/案例1.webp" type="image/webp">
+                <img src="~/assets/img/service/beautyService/sculptra/案例1.jpg" alt="案例1">
+            </picture>
             <p>療程效果會因個人體質而有所差異</p>
         </div>
         <div class="article-container">
             <h4>接受4次注射，總計6瓶療程</h4>
-            <img   src="~/assets/img/service/beautyService/sculptra/案例2.jpg" alt="案例2">
+            <picture>
+                <source srcset="~/assets/img/service/beautyService/sculptra/案例2.webp" type="image/webp">
+                <img src="~/assets/img/service/beautyService/sculptra/案例2.jpg" alt="案例2">
+            </picture>
             <p>療程效果會因個人體質而有所差異</p>
         </div>
          

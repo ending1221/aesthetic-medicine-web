@@ -9,12 +9,19 @@
         <Title title="除皺 / 瘦小臉" titleEn="BTX" />
        
         <div class="article-container service-page">
-            <img src="~/assets/img/service/beautyService/btx/banner.jpg" alt="除皺 / 瘦小臉 Banner">
+            <picture>
+                <source srcset="~/assets/img/service/beautyService/btx/banner.webp" type="image/webp">
+                <img src="~/assets/img/service/beautyService/btx/banner.jpg" alt="除皺 / 瘦小臉 Banner">
+            </picture>
+            
             <h2>除皺小臉，讓你大叔變少年</h2>
             <p>身兼歌手、演員、主持人，全方位藝人的曾治豪，對他而言最重要的就是門面，除了在意專業表現之外，他對外型的照顧一點也不馬虎，定期會做臉及醫美保養。近期來到美仕媞來保養，考慮還有活動主持的曾治豪，醫生評估過後，建議除皺小臉是最適合他的，沒有恢復期，可以正常主持、出演活動。</p>
         </div>
         <div class="article-container">
-            <img   src="~/assets/img/service/beautyService/btx/1.jpg" alt="施打過程">
+            <picture>
+                <source srcset="~/assets/img/service/beautyService/btx/1.webp" type="image/webp">
+                <img src="~/assets/img/service/beautyService/btx/1.jpg" alt="施打過程">
+            </picture>
         </div>
          
         <div class="article-container">
@@ -26,7 +33,11 @@
                 <li>在治療方面，已經安全而有效地使用了十年以上，是一種簡單而安全的方法</li>
                 <li>療程舒適，局部僅有微脹微痛感，接受度高</li>
             </ol>
-            <img   src="~/assets/img/service/beautyService/btx/2.jpg" alt="諮詢過程">
+            <picture>
+                <source srcset="~/assets/img/service/beautyService/btx/2.webp" type="image/webp">
+                <img src="~/assets/img/service/beautyService/btx/2.jpg" alt="諮詢過程">
+            </picture>
+            
             <h2>前後對照，撞臉黃鴻升</h2>
         </div>
         <div class="article-container">
@@ -47,19 +58,28 @@
         <div class="article-container">
             <h2>美麗案例</h2>
             <h4>除皺案例-魚尾紋</h4>
-            <img   src="~/assets/img/service/beautyService/btx/案例1.jpg" alt="案例1">
+            <picture>
+                <source srcset="~/assets/img/service/beautyService/btx/案例1.webp" type="image/webp">
+                <img src="~/assets/img/service/beautyService/btx/案例1.jpg" alt="案例1">
+            </picture>
             <p>療程效果會因個人體質而有所差異</p>
         </div>
          
         <div class="article-container">
             <h4>除皺案例-抬頭紋</h4>
-            <img   src="~/assets/img/service/beautyService/btx/案例2.jpg" alt="案例2">
+            <picture>
+                <source srcset="~/assets/img/service/beautyService/btx/案例2.webp" type="image/webp">
+                <img src="~/assets/img/service/beautyService/btx/案例2.jpg" alt="案例2">
+            </picture>
             <p>療程效果會因個人體質而有所差異</p>
         </div>
          
         <div class="article-container">
             <h4>擊退國字臉案例</h4>
-            <img   src="~/assets/img/service/beautyService/btx/案例3.jpg" alt="案例3">
+            <picture>
+                <source srcset="~/assets/img/service/beautyService/btx/案例3.webp" type="image/webp">
+                <img src="~/assets/img/service/beautyService/btx/案例3.jpg" alt="案例3">
+            </picture>
             <p>療程效果會因個人體質而有所差異</p>
         </div>
          

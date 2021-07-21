@@ -1,10 +1,12 @@
 <template>
     <div class="team-item">
         <div class="img-block">
-            <img 
-                :src="require(`~/assets/img/team/${id}.png`)" 
-                :alt="name"
-            >
+            <picture>
+                <source :srcset="require(`~/assets/img/team/${id}.webp`)" type="image/webp">
+                <img 
+                    :src="require(`~/assets/img/team/${id}.png`)" 
+                    :alt="name">
+            </picture>
         </div>
         <div class="text-block">
             <div class="name">{{name}} 
