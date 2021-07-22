@@ -9,45 +9,69 @@
         <Title title="D.O.E光繞雷射" titleEn="D.O.E HELIOS III" />
        
         <div class="article-container service-page">
-            <img src="~/assets/img/service/preventiveMedicine/doe/banner.jpg" alt="D.O.E光繞雷射 Banner">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/doe/banner.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/doe/banner.jpg" alt="D.O.E光繞雷射 Banner">
+            </picture>
             <h2>斑的種類這麼多種，你了解你臉上的斑嗎？</h2>
             <p>雀斑／老人斑／曬斑／蒙古斑／胎記／肝斑／顱骨斑</p>
-            <img src="~/assets/img/service/preventiveMedicine/doe/1.jpg" alt="斑的種類這麼多種，你了解你臉上的斑嗎？">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/doe/1.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/doe/1.jpg" alt="斑的種類這麼多種，你了解你臉上的斑嗎？">
+            </picture>
         </div>
          
         <div class="article-container">
             <h2>選對雷射除對斑，才能給你光滑蛋白肌。</h2>
             <h5>淨膚雷射很常見，但你知道打在臉上的是什麼嗎？</h5>
             <p>美仕媞時尚醫美診所提供八倍淨膚<span class="hasColor">「終極版淨膚雷射」</span>，不同於以往淨膚雷射所使用的單一波長，「D.O.E光繞雷射」All-in-one與皮秒雷射運用兩種波長在1064nm 以及 532nm經由熱能刺激，能量比起淨膚雷射來的高，甚至效用<span class="hasColor">媲美范冰冰最愛的皮秒雷射，價格卻比皮秒雷射更親民。</span></p>
-            <img    src="~/assets/img/service/preventiveMedicine/doe/2.jpg" alt="不同波長有不同效果">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/doe/2.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/doe/2.jpg" alt="不同波長有不同效果">
+            </picture>
             <p>「D.O.E光繞雷射」可以擊退惱人的肝斑，且不僅時間上縮短許多，熱傷害減少45%，對於改善泛紅狀況、斑點，粗大毛孔等等更有顯著效果，<span class="hasColor">光繞雷射擁有四大數位探頭，泛紅剋星、擊碎斑點、毛孔對策、對抗肝斑</span>，可針對個人肌膚狀況選擇需要的療程，<span class="hasColor">「D.O.E光繞雷射」All-in-one 一機多用完美到位。</span></p>
             <iframe src="https://www.youtube.com/embed/AYljJ0OWxMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="article-container">
             <h2>D.O.E光繞雷射HELIOS III規格</h2>
-            <img    src="~/assets/img/service/preventiveMedicine/doe/3.jpg" alt="D.O.E光繞雷射HELIOS III規格">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/doe/3.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/doe/3.jpg" alt="D.O.E光繞雷射HELIOS III規格">
+            </picture>
         </div>
          
         <div class="article-container">
             <h2>全新第三代「D.O.E光繞雷射」All-in-one 一機多用完美到位</h2>
             <p>光繞雷射是利用Q開關將雷射能量在極短的時間內瞬間輸出，在<span class="hasColor">不傷害周邊組織</span>的情況下，以<span class="hasColor">高效率震碎黑色素</span>，同<span class="hasColor">刺激真皮層新生膠原蛋白</span>，有效<span class="hasColor">改善膚色、肌膚質地及色素斑問題。</span></p>
-            <img  src="~/assets/img/service/preventiveMedicine/doe/4.jpg" alt="全新第三代「D.O.E光繞雷射」All-in-one 一機多用完美到位">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/doe/4.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/doe/4.jpg" alt="全新第三代「D.O.E光繞雷射」All-in-one 一機多用完美到位">
+            </picture>
         </div>
          
         <div class="article-container">
             <h2>色素斑雷射原理</h2>
             <p>利用選擇性光熱分解的原理，當特定波長的雷 射光被黑色素吸收後，將由光能轉化為熱能再 把含有黑色素的細胞震碎裂解，達到除斑效果。</p>
-            <img    src="~/assets/img/service/preventiveMedicine/doe/5.jpg" alt="光繞作用">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/doe/5.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/doe/5.jpg" alt="全光繞作用">
+            </picture>
         </div>
          
         <div class="article-container">
             <h2>光繞雷射效果作用</h2>
             <h3>刺激膠原蛋白新生</h3>
             <p>利用低能量多發數的治療刺激膠原蛋白新生，增加肌膚彈性。</p>
-            <img    src="~/assets/img/service/preventiveMedicine/doe/6.jpg" alt="光繞雷射兩大作用">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/doe/6.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/doe/6.jpg" alt="光繞雷射兩大作用">
+            </picture>
             <h3>擊碎黑色素</h3>
             <p>以25-40倍瞬間能量擊碎黑色素，改善膚色不均，淡化斑點。</p>
-            <img    src="~/assets/img/service/preventiveMedicine/doe/7.jpg" alt="光繞雷射兩大作用">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/doe/7.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/doe/7.jpg" alt="光繞雷射兩大作用">
+            </picture>
             <h3>改善肌膚膚質</h3>
             <p>新生膠原蛋白，刺激表皮更新。改善肌膚質地，重現Q彈。</p>
             <h3>改善毛孔粗大</h3>
@@ -56,22 +80,40 @@
          
         <div class="article-container">
             <h2>新一代淨膚終極版【D.O.E.光繞雷射】 療程特色</h2>
-            <img    src="~/assets/img/service/preventiveMedicine/doe/8.jpg" alt="新一代淨膚終極版【D.O.E.光繞雷射】 療程特色">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/doe/8.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/doe/8.jpg" alt="新一代淨膚終極版【D.O.E.光繞雷射】 療程特色">
+            </picture>
         </div>
          
         <div class="article-container">
             <h2>淨膚終極版【D.O.E.光繞雷射】四大探頭 All in One</h2>
             <p>一般雷射淨膚只使用在 1064nm 單一波長下的二種探頭 ( 黑色與藍色探頭 ) 來做治療，但臨床上因為各人體質差異，加上斑點的存在位置、深淺各有 不同，所以有時治療效果不一。</p>
             <p>為解決這問題，HELIOS III 研發出在 1064nm 以及 532nm 波長下(與皮秒雷射波長相同)，應用四種 探頭，針對不同深度的黑色素，不僅能有效去除臉上斑斑點點，大大提高療效，更能縮短治療的療程次數。</p>
-            <img    src="~/assets/img/service/preventiveMedicine/doe/9.jpg" alt="探頭介紹">
-            <img    src="~/assets/img/service/preventiveMedicine/doe/10.jpg" alt="專用數位透鏡">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/doe/9.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/doe/9.jpg" alt="探頭介紹">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/doe/10.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/doe/10.jpg" alt="專用數位透鏡">
+            </picture>
         </div>
          
         <div class="article-container">
             <h2>光繞雷射技術特點</h2>
-            <img    src="~/assets/img/service/preventiveMedicine/doe/11.png" alt="光繞雷射技術特點">
-            <img    src="~/assets/img/service/preventiveMedicine/doe/12.jpg" alt="療程靈活自由搭配">
-            <img    src="~/assets/img/service/preventiveMedicine/doe/13.jpg" alt="更多手把更多應用">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/doe/11.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/doe/11.png" alt="光繞雷射技術特點">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/doe/12.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/doe/12.jpg" alt="療程靈活自由搭配">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/doe/13.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/doe/13.jpg" alt="更多手把更多應用">
+            </picture>
         </div>
          
         <div class="article-container">
@@ -86,16 +128,28 @@
         </div>
         <div class="article-container">
             <h2>美麗案例</h2>
-            <img    src="~/assets/img/service/preventiveMedicine/doe/案例1.png" alt="案例1">
-            <img    src="~/assets/img/service/preventiveMedicine/doe/案例2.png" alt="案例2">
-            <img    src="~/assets/img/service/preventiveMedicine/doe/案例3.png" alt="案例3">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/doe/案例1.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/doe/案例1.png" alt="案例1">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/doe/案例2.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/doe/案例2.png" alt="案例2">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/doe/案例3.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/doe/案例3.png" alt="案例3">
+            </picture>
             <p>療程效果會因個人體質而有所差異</p>
         </div>
          
         <div class="article-container">
             <h2>治療次數建議</h2>
             <p>療程次數依照每個人的狀況而不同，有些症狀需要多次的治療，才能達到預期的效果，每次治療前須先觀察皮膚恢復情況，再選擇當次治療參數。</p>
-            <img    src="~/assets/img/service/preventiveMedicine/doe/14.jpg" alt="治療次數建議">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/doe/14.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/doe/14.jpg" alt="治療次數建議">
+            </picture>
         </div>
          
         <div class="article-container">

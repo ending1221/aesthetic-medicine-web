@@ -9,7 +9,10 @@
         <Title title="脈衝光" titleEn="IPL" />
        
         <div class="article-container service-page">
-            <img src="~/assets/img/service/preventiveMedicine/ipl/banner.jpg" alt="脈衝光 Banner">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/ipl/banner.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/ipl/banner.jpg" alt="脈衝光 Banner">
+            </picture>
             <h2>美麗功效</h2>
             <p>脈衝光雷射的原理是藉由皮膚組織對光的吸收反應，能將光能會轉換成熱能，可被麥拉寧色素、血紅素、以及膠原蛋白吸收產生熱解作用，並運用特定波長與脈衝間隔結合，將能量經由皮膚傳送至想要治療的部位皮層，使得治療部位達到改善，並減低週遭組織可能受到的損害。</p>
             <p>脈衝光雷射除斑可以說是複合式雷射，由於它幾乎涵蓋 了所有 常用的雷射波長（包含染料雷射585, 595nm╱紅寶石雷射694nm╱紫翠玉雷射755nm╱銣雅克雷射1064nm等），參數可隨著患者不同的皮膚類型及皮膚症狀做調整，能同時改善淺層斑點、膚色不均、細紋、毛孔粗大、色素沈澱、表淺血管增生等，也可局部治療，並且作用相當持久。</p>
@@ -25,7 +28,10 @@
             <p>IPL可以收縮表淺血管，改善臉部潮紅、血絲。對於黑眼圈也有不錯的改善效果。</p>
             <h3>改善色素沉澱及痘疤</h3>
             <p>脈衝光治療後可以加速皮膚的新陳代謝，促進痘疤及色素沉澱的快速淡化。</p>
-            <img   src="~/assets/img/service/preventiveMedicine/ipl/1.jpg" alt="肌膚問題">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/ipl/1.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/ipl/1.jpg" alt="肌膚問題">
+            </picture>
         </div>
         <div class="article-container">
             <h2>治療次數</h2>
@@ -63,8 +69,14 @@
          
         <div class="article-container">
             <h2>美麗案例</h2>
-            <img   src="~/assets/img/service/preventiveMedicine/ipl/案例1.png" alt="案例1">
-            <img   src="~/assets/img/service/preventiveMedicine/ipl/案例2.png" alt="案例2">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/ipl/案例1.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/ipl/案例1.png" alt="案例1">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/ipl/案例2.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/ipl/案例2.png" alt="案例2">
+            </picture>
             <p>療程效果會因個人體質而有所差異</p>
         </div>
          

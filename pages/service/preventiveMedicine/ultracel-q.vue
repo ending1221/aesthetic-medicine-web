@@ -9,12 +9,19 @@
         <Title title="最新第四代Q+音波拉提" titleEn="ULTRACEL-Q" />
        
         <div class="article-container service-page">
-            <img src="~/assets/img/service/preventiveMedicine/ultracel-q/banner.png" alt="最新第四代Q+音波拉提 Banner">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/ultracel-q/banner.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/ultracel-q/banner.png" alt="最新第四代Q+音波拉提 Banner">
+            </picture>
             <h2>為什麼會老化?</h2>
             <h3>老化，是每個人一生都必須面對的課題！</h3>
             <p>老化的原因可分為兩類，一是先天基因的影響，二是後天外在因素所引起的 (如自由基、日曬、抽菸等、大氣污染環境因素、電磁輻射、生活方式與飲食不均)</p>
             <p>老化是每天都在發生的事情，現代人生活忙碌工作壓力大，有時外表與心境老得比實際年齡快，以膠原蛋白來說就是以每年 2% 的速度快速消失，排列變得不整齊，使得肌膚的厚度和彈性變低，會讓肌膚產生細紋。</p>
             <img   src="~/assets/img/service/preventiveMedicine/ultracel-q/1.jpg" alt="心情要鬆，皮膚千萬不能鬆！">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/ultracel-q/1.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/ultracel-q/1.jpg" alt="心情要鬆，皮膚千萬不能鬆！">
+            </picture>
             <p>老化的皮膚， 表皮會變的比較薄，膚色也會變的不均勻，皮膚變得乾燥缺乏彈性，膚色暗沉，深層的皮下脂肪層，肌肉筋膜層也會因為老化或地心引力拉扯的關係，使得脂肪流失逐漸位移，筋膜層的支撐力不足，造成臉上開始出現皺紋，淚溝、法令紋、雙頰凹陷，眼皮也會開始下垂，下顎曲線也因鬆弛顯得模糊，嘴邊肉更是讓人盡顯老態。</p>
             <p>想要抗老回春，就要先了解老化的原因為何，隨著醫美技術進步，現在不用透過侵入性手術，忍受皮肉之痛，</p>
             <p>只要利用午休零碎時間進廠保養，就能輕鬆保有青春的容貌與窈窕的身體曲線，何樂而不為呢？</p>
@@ -72,13 +79,34 @@
          
         <div class="article-container">
             <h2>美麗案例</h2>
-            <img   src="~/assets/img/service/preventiveMedicine/ultracel-q/案例1.png" alt="案例1">
-            <img   src="~/assets/img/service/preventiveMedicine/ultracel-q/案例2.png" alt="案例2">
-            <img   src="~/assets/img/service/preventiveMedicine/ultracel-q/案例3.png" alt="案例3">
-            <img   src="~/assets/img/service/preventiveMedicine/ultracel-q/案例4.png" alt="案例4">
-            <img   src="~/assets/img/service/preventiveMedicine/ultracel-q/案例5.png" alt="案例5">
-            <img   src="~/assets/img/service/preventiveMedicine/ultracel-q/案例6.png" alt="案例6">
-            <img   src="~/assets/img/service/preventiveMedicine/ultracel-q/案例7.png" alt="案例7">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/ultracel-q/案例1.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/ultracel-q/案例1.png" alt="案例1">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/ultracel-q/案例2.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/ultracel-q/案例2.png" alt="案例2">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/ultracel-q/案例3.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/ultracel-q/案例3.png" alt="案例3">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/ultracel-q/案例4.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/ultracel-q/案例4.png" alt="案例4">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/ultracel-q/案例5.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/ultracel-q/案例5.png" alt="案例5">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/ultracel-q/案例6.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/ultracel-q/案例6.png" alt="案例6">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/ultracel-q/案例7.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/ultracel-q/案例7.png" alt="案例7">
+            </picture>
             <p>療程效果會因個人體質而有所差異</p>
         </div>
     </div>

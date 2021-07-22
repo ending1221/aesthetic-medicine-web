@@ -9,11 +9,17 @@
         <Title title="粉餅光雷射" titleEn="DEPI LIGHT" />
        
         <div class="article-container service-page">
-            <img src="~/assets/img/service/preventiveMedicine/depiLight/banner.jpg" alt="粉餅光雷射 Banner">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/depiLight/banner.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/depiLight/banner.jpg" alt="粉餅光雷射 Banner">
+            </picture>
         </div>
         <div class="article-container">
             <h2>CC光</h2>
-            <img   src="~/assets/img/service/preventiveMedicine/depiLight/1.jpg" alt="夏日美人瑩透感秘方">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/depiLight/1.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/depiLight/1.jpg" alt="夏日美人瑩透感秘方">
+            </picture>
         </div>
         <div class="article-container">
             <h2>沁涼瑩透修復療程</h2>
@@ -34,7 +40,10 @@
          
         <div class="article-container">
             <h2>QQ光</h2>
-            <img   src="~/assets/img/service/preventiveMedicine/depiLight/2.jpg" alt="QQ光">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/depiLight/2.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/depiLight/2.jpg" alt="QQ光">
+            </picture>
              <h4>療程效果會因個人體質而有所差異</h4>
         </div>
     </div>

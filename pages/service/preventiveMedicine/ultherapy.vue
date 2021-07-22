@@ -9,7 +9,10 @@
         <Title title="極限音波拉提" titleEn="ULTHERAPY" />
        
         <div class="article-container service-page">
-            <img src="~/assets/img/service/preventiveMedicine/ultherapy/banner.jpg" alt="極限音波拉提 Banner">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/ultherapy/banner.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/ultherapy/banner.jpg" alt="極限音波拉提 Banner">
+            </picture>
             <h2>高強度聚焦式超音波 刺激膠原蛋白的增生與重組</h2>
             <p>以高強度聚焦式超音波 (High Intensity Focused Ultrasound; HIFU)，針對傳統手術拉皮治療的SMAS層(全名為Superficial Musculo- Aponeurotic System)(表淺肌肉建膜系統，俗稱筋膜層) 利用深度1.5mm~4.5mm聚焦的能量變成微細的「熱點」，在皮下作用的溫度可到達65℃~70℃，會激發身體的自我更新機制，刺激膠原蛋白增生，達到緊緻、拉提等效果。</p>
         </div>
@@ -28,7 +31,10 @@
                 <li>針對皮下脂肪→3.0mm</li>
                 <li>針對SMAS層、頸闊肌→4.5mm</li>
             </ol>
-            <img   src="~/assets/img/service/preventiveMedicine/ultherapy/1.jpg" alt="多層次精準定位治療">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/ultherapy/1.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/ultherapy/1.jpg" alt="多層次精準定位治療">
+            </picture>
         </div>
         <div class="article-container">
             <h2>療程特性</h2>
@@ -42,15 +48,30 @@
          
         <div class="article-container">
             <h2>療程治療區域</h2>
-            <img   src="~/assets/img/service/preventiveMedicine/ultherapy/2.jpg" alt="多層次精準定位治療">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/ultherapy/2.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/ultherapy/2.jpg" alt="多層次精準定位治療">
+            </picture>
         </div>
          
         <div class="article-container">
             <h2>美麗案例</h2>
-            <img   src="~/assets/img/service/preventiveMedicine/ultherapy/案例1.png" alt="案例1">
-            <img   src="~/assets/img/service/preventiveMedicine/ultherapy/案例2.png" alt="案例2">
-            <img   src="~/assets/img/service/preventiveMedicine/ultherapy/案例3.png" alt="案例3">
-            <img   src="~/assets/img/service/preventiveMedicine/ultherapy/案例4.png" alt="案例4">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/ultherapy/案例1.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/ultherapy/案例1.png" alt="案例1">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/ultherapy/案例2.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/ultherapy/案例2.png" alt="案例2">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/ultherapy/案例3.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/ultherapy/案例3.png" alt="案例3">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/ultherapy/案例4.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/ultherapy/案例4.png" alt="案例4">
+            </picture>
             <p>療程效果會因個人體質而有所差異</p>
         </div>
          

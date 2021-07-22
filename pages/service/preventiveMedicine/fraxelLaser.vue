@@ -9,7 +9,10 @@
         <Title title="飛梭雷射" titleEn="FRAXEL LASER" />
        
         <div class="article-container service-page">
-            <img src="~/assets/img/service/preventiveMedicine/fraxelLaser/banner.jpg" alt="飛梭雷射 Banner">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/fraxelLaser/banner.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/fraxelLaser/banner.jpg" alt="飛梭雷射 banner">
+            </picture>
             <p>凹陷痘疤、毛孔粗大及月球表面等皮膚問題，不但看起來不美觀，也容易讓患者對外表失去自信心，甚至影響人際關係；現在您可藉由飛梭雷射，來改善坑坑疤疤困擾，且少痛、反黑率低、修復期短，是治療痘疤的新利器。</p>
         </div>
          
@@ -43,8 +46,14 @@
          
         <div class="article-container">
             <h2>美麗案例</h2>
-            <img   src="~/assets/img/service/preventiveMedicine/fraxelLaser/案例1.png" alt="案例1">
-            <img   src="~/assets/img/service/preventiveMedicine/fraxelLaser/案例2.png" alt="案例2">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/fraxelLaser/案例1.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/fraxelLaser/案例1.png" alt="案例1 ">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/fraxelLaser/案例2.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/fraxelLaser/案例2.png" alt="案例2 ">
+            </picture>
             <p>療程效果會因個人體質而有所差異</p>
         </div>
          

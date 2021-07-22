@@ -9,7 +9,10 @@
         <Title title="蘋果光雷射" titleEn="LASER BEAUTY" />
        
         <div class="article-container service-page">
-            <img src="~/assets/img/service/preventiveMedicine/laserBeauty/banner.jpg" alt="蘋果光雷射 Banner">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/laserBeauty/banner.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/laserBeauty/banner.jpg" alt="蘋果光雷射 Banner">
+            </picture>
         </div>
         <div class="article-container">
             <h2>打造肌膚瞬間提亮，重視自信素顏緊緻回春！</h2>
@@ -26,7 +29,10 @@
             <p>蘋果光雷射深入真皮層的色素擊碎成小顆粒，再由自身的吞噬細胞吸收、代謝，達到肌膚淨白透亮、改善痘疤、黑眼圈及其他色素沉澱的效果。</p>
             <p>蘋果光在真皮層產生的熱能也會活化膠原纖維母細胞，刺激皮膚的膠原蛋白增生，產生縮小毛孔、緊緻肌膚、撫平細紋的功效，讓後續的家常保養更容易吸收，即使冬季的肌膚仍舊能維持最佳的保濕與細緻狀態。</p>
             <p>想擁有如蘋果般光滑白裡透白的肌膚，清晰柔美的五官輪廓，展現細緻完美膚質及紅潤氣色，蘋果光雷射將是急救肌膚療程的絕佳選擇。</p>
-            <img   src="~/assets/img/service/preventiveMedicine/laserBeauty/1.jpg" alt="夏日醫美保養首選">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/laserBeauty/1.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/laserBeauty/1.jpg" alt="夏日醫美保養首選">
+            </picture>
         </div>
          
         <div class="article-container">
@@ -39,12 +45,18 @@
                 <li>+ 有膚色黯沉或不均者</li>
                 <li>+ 想要追求更好膚質者</li>
             </ul>
-            <img   src="~/assets/img/service/preventiveMedicine/laserBeauty/2.jpg" alt="肌膚問題">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/laserBeauty/2.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/laserBeauty/2.jpg" alt="肌膚問題">
+            </picture>
         </div>
          
         <div class="article-container">
             <h2>美麗案例</h2>
-            <img   src="~/assets/img/service/preventiveMedicine/laserBeauty/案例1.png" alt="案例1">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/laserBeauty/案例1.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/laserBeauty/案例1.png" alt="案例1">
+            </picture>
             <p>療程效果會因個人體質而有所差異</p>
         </div>
          

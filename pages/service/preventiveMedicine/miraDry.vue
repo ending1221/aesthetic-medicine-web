@@ -9,7 +9,10 @@
         <Title title="微波熱能除汗系統" titleEn="MIRA DRY" />
        
         <div class="article-container service-page">
-            <img src="~/assets/img/service/preventiveMedicine/miraDry/banner.jpg" alt="微波熱能除汗系統 Banner">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/miraDry/banner.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/miraDry/banner.jpg" alt="微波熱能除汗系統 Banner">
+            </picture>
         </div>
         <div class="article-container">
             <h2>美麗功效</h2>
@@ -21,9 +24,15 @@
             <h2>微波熱能除汗系統(MiraDry) 原理</h2>
             <p>微波熱能除汗系統能量為微波熱能量，到達此微波溫度才能將汗腺萎縮，微波熱能除汗系統會利用冷卻系統，來保護表皮及真皮上部等其他組織不會產生灼傷。已經被破壞的汗腺不會新生，對於治療腋下多汗症可以達到持續性的效果。</p>
             <h3>大汗腺與汗腺解剖圖</h3>
-            <img   src="~/assets/img/service/preventiveMedicine/miraDry/1.jpg" alt="大汗腺與汗腺解剖圖">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/miraDry/1.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/miraDry/1.jpg" alt="大汗腺與汗腺解剖圖">
+            </picture>
             <h3>微波熱能除汗系統作用原理</h3>
-            <img   src="~/assets/img/service/preventiveMedicine/miraDry/2.jpg" alt="微波熱能除汗系統作用原理">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/miraDry/2.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/miraDry/2.jpg" alt="微波熱能除汗系統作用原理">
+            </picture>
             <h5>✔ 能量精準傳遞</h5>
             <p>波頻率5.8GHz能精準地將能量傳遞至真皮層與脂肪交界處(大小汗腺分佈的區域)有效破壞大汗腺(頂漿腺-異味來源)及小汗腺(多汗來源)。</p>
             <h5>✔ 關鍵治療溫度</h5>
@@ -33,9 +42,15 @@
         <div class="article-container">
             <h2>適用對象</h2>
             <h3>多汗症自我檢視表</h3>
-            <img   src="~/assets/img/service/preventiveMedicine/miraDry/3.png" alt="多汗症自我檢視表">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/miraDry/3.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/miraDry/3.png" alt="多汗症自我檢視表">
+            </picture>
             <h3>狐臭嚴重程度辨別</h3>
-            <img   src="~/assets/img/service/preventiveMedicine/miraDry/4.png" alt="狐臭嚴重程度辨別表">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/miraDry/4.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/miraDry/4.png" alt="狐臭嚴重程度辨別表">
+            </picture>
         </div>
          
         <div class="article-container">
@@ -59,7 +74,10 @@
          
         <div class="article-container">
             <h2>治療步驟</h2>
-            <img   src="~/assets/img/service/preventiveMedicine/miraDry/5.png" alt="治療步驟">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/miraDry/5.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/miraDry/5.png" alt="治療步驟">
+            </picture>
         </div>
          
         <div class="article-container">
@@ -76,7 +94,10 @@
          
         <div class="article-container">
             <h2>術後小叮嚀</h2>
-            <img   src="~/assets/img/service/preventiveMedicine/miraDry/6.png" alt="術後小叮嚀">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/miraDry/6.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/miraDry/6.png" alt="術後小叮嚀">
+            </picture>
             <ul>
                 <li>✦ 術後常見反應，狀況依個人體質而定</li>
                 <li>✦ 術後冰敷可減輕不適感及腫脹感，冰敷注意事項：</li>

@@ -9,7 +9,10 @@
         <Title title="電波拉提" titleEn="THERMAGE" />
        
         <div class="article-container service-page">
-            <img src="~/assets/img/service/preventiveMedicine/thermage/banner.jpg" alt="電波拉提 Banner">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/thermage/banner.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/thermage/banner.jpg" alt="電波拉提 Banner">
+            </picture>
             <p>過了25歲，除了基礎代謝率明顯下滑外，膠原蛋白增生的速度也開始來不及補充流失的部分，肌膚開始出現鬆弛無彈性、毛孔粗大以及暗沉的現象。隨著科技的日新月異，現在只要短短的二小時，就能立即感受到拉提的效果，伴隨著傷口小疼痛指數低，無恢復期的優勢，術後更可以照常上班、上妝。輕輕鬆鬆守住青春防線!</p>
         </div>
          
@@ -22,7 +25,10 @@
             <h2>電波緊顏緊緻肌膚二重奏</h2>
             <h3>第一重立即作用：膠原蛋白的收縮</h3>
             <p>真皮層因收縮而產生緊緻的效果皮下組織層的纖維中隔(Fibrous Septae)因收縮而產生塑形效果、可以改善鬆弛。</p>
-            <img   src="~/assets/img/service/preventiveMedicine/thermage/1.png" alt="膠原蛋白的收縮案例">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/thermage/1.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/thermage/1.png" alt="膠原蛋白的收縮案例">
+            </picture>
             <p>受治療的左半邊臉，治療完立即就可感到緊緻喔！</p>
             <p>療程效果會因個人體質而有所差異</p>
         </div>
@@ -30,7 +36,10 @@
         <div class="article-container">
             <h3>第二重長期作用：膠原蛋白的新生與重組</h3>
             <p>膠原蛋白再生、重組隨著時間不斷的產生，持續緊緻皮膚 、效果因而持久。</p>
-            <img   src="~/assets/img/service/preventiveMedicine/thermage/案例1.png" alt="膠原蛋白的新生與重組案例">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/thermage/案例1.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/thermage/案例1.png" alt="膠原蛋白的新生與重組案例">
+            </picture>
             <p>多回治療，經過兩個月後，臉部細紋減少，緊緻拉提。</p>
             <p>療程效果會因個人體質而有所差異</p>
         </div>
@@ -62,10 +71,22 @@
         
         <div class="article-container">
             <h2>美麗案例</h2>
-            <img   src="~/assets/img/service/preventiveMedicine/thermage/案例3.png" alt="案例3">
-            <img   src="~/assets/img/service/preventiveMedicine/thermage/案例4.png" alt="案例4">
-            <img   src="~/assets/img/service/preventiveMedicine/thermage/案例5.png" alt="案例5">
-            <img   src="~/assets/img/service/preventiveMedicine/thermage/案例6.png" alt="案例6">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/thermage/案例3.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/thermage/案例3.png" alt="案例3">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/thermage/案例4.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/thermage/案例4.png" alt="案例4">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/thermage/案例5.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/thermage/案例5.png" alt="案例5">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/thermage/案例6.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/thermage/案例6.png" alt="案例6">
+            </picture>
             <p>療程效果會因個人體質而有所差異</p>
         </div>
          

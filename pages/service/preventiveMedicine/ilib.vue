@@ -9,7 +9,10 @@
         <Title title="生化雷射" titleEn="ILIB" />
        
         <div class="article-container service-page">
-            <img src="~/assets/img/service/preventiveMedicine/ilib/banner.jpg" alt="生化雷射 Banner">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/ilib/banner.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/ilib/banner.jpg" alt="生化雷射 Banner">
+            </picture>
             <p>現代人生活在空氣汙染，飲水汙染和輻射的環境裡，加上不良的生活習慣、情緒緊張、環境壓力，導致血液中滿了毒素。利用低能量的雷射光導入血液中經由全身循環、活化生理功能、清除體中毒素，達到排毒修護、預防疾病和改善慢性病的效果。</p>
         </div>
          
@@ -17,8 +20,14 @@
             <h2>生化雷射的作用原理</h2>
             <h3>雷射低能量生化療法是一種換能療法</h3>
             <p>生化雷射又稱氦氖雷射、低能量生化雷射、靜脈雷射或ILIB(Intravenous　Laser Irradiation of Blood)，氦氖雷射是屬於物理性的一種，是用632.8波長6mW以下的低能量紅色生化雷射光，產生光化學效應，活化血球對於血液中循環的血球與各種細胞有改善功能、促進代謝、清除自由基。</p>
-            <img   src="~/assets/img/service/preventiveMedicine/ilib/1.jpg" alt="生化雷射的作用原理">
-            <img   src="~/assets/img/service/preventiveMedicine/ilib/2.jpg" alt="紅血球的反應">
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/ilib/1.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/ilib/1.jpg" alt="生化雷射的作用原理">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/preventiveMedicine/ilib/2.webp" type="image/webp">
+                <img  src="~/assets/img/service/preventiveMedicine/ilib/2.jpg" alt="紅血球的反應">
+            </picture>
         </div>
          
         <div class="article-container">
