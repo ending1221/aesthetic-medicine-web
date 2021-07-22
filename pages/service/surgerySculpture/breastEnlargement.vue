@@ -9,7 +9,10 @@
         <Title title="隆乳手術" titleEn="breastEnlargement" />
        
         <div class="article-container service-page">
-            <img src="~/assets/img/service/surgerySculpture/breastEnlargement/banner.jpg" alt="隆乳手術 Banner">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/breastEnlargement/banner.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/breastEnlargement/banner.jpg" alt="隆乳手術 Banner">
+            </picture>
         </div>
         <div class="article-container">
             <h2>美麗功效</h2>
@@ -32,7 +35,10 @@
          
         <div class="article-container">
             <h2>矽膠隆乳-果凍矽膠義乳</h2>
-            <img   src="~/assets/img/service/surgerySculpture/breastEnlargement/1.png" alt="矽膠義乳種類">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/breastEnlargement/1.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/breastEnlargement/1.png" alt="矽膠義乳種類">
+            </picture>
             <p>果凍矽膠義乳依表面材質不同分為光滑面與絨毛面，另外依側面凸度的不同分為扁、中、高三款。</p>
             <h3>光滑面果凍矽膠</h3>
             <p>觸感較柔軟，對於胸部軟組織較薄的來說，可以達到乳房自然動態的效果。<br>手術後前3-6個月需要進行按摩，才能避免莢膜欒縮(註一)的情況發生。</p>
@@ -100,13 +106,19 @@
          
         <div class="article-container">
             <h2>自體脂肪隆乳 美麗案例</h2>
-            <img   src="~/assets/img/service/surgerySculpture/breastEnlargement/案例1.png" alt="案例1
-            ">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/breastEnlargement/案例1.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/breastEnlargement/案例1.png" alt="案例1">
+            </picture>
             <h2>果凍矽膠隆乳 美麗案例</h2>
-            <img   src="~/assets/img/service/surgerySculpture/breastEnlargement/案例2.png" alt="案例2
-            ">
-            <img   src="~/assets/img/service/surgerySculpture/breastEnlargement/案例3.jpg" alt="案例3
-            ">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/breastEnlargement/案例2.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/breastEnlargement/案例2.png" alt="案例2">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/breastEnlargement/案例3.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/breastEnlargement/案例3.jpg" alt="案例3">
+            </picture>
             <h4>療程效果會因個人體質而有所差異</h4>
         </div>
     </div>

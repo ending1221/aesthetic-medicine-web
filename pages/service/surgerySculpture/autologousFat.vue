@@ -9,7 +9,10 @@
         <Title title="抽脂 / 自體脂肪回填" titleEn="autologousFat" />
        
         <div class="article-container service-page">
-            <img src="~/assets/img/service/surgerySculpture/autologousFat/banner.jpg" alt="抽脂 / 自體脂肪回填 Banner">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/autologousFat/banner.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/autologousFat/banner.jpg" alt="抽脂 / 自體脂肪回填 Banner">
+            </picture>
         </div>
         <div class="article-container">
             <h2>美麗功效</h2>
@@ -19,7 +22,10 @@
          
         <div class="article-container">
             <h2>自體脂肪移植豐頰豐臉</h2>
-            <img   src="~/assets/img/service/surgerySculpture/autologousFat/1.jpg" alt="示意圖">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/autologousFat/1.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/autologousFat/1.jpg" alt="示意圖">
+            </picture>
             <p>老化的臉部包括皮膚的鬆弛和軟組織的向下移動，其中所指的軟組織主要指的是脂肪，脂肪除了向下移動以外，有時還會合併萎縮退化的情況。這些因素共同造成老化的臉部鬆弛而下垂的特徵。對於臉部皮膚輕微鬆弛的人，最新觀念是利用抽脂得到的自體脂肪加上由血液裡萃取出來的高濃度生長因子，來做自體脂肪移植。</p>
             <p>加入生長因子的好處是可以增加移植後脂肪細胞的存活率和柔軟度。從額頭、太陽穴(夫妻宮)、上下眼窩、蘋果肌、兩頰、法令紋、木偶紋、下巴等處，利用自體脂肪做填充物，將臉部重新雕塑，回到年輕時的臉部曲線，這是目前最新的趨勢，可以同時得到抽脂瘦身與回春兩種效果，也可以合併其它拉皮法來達到更完美的效果。</p>
         </div>
@@ -31,7 +37,10 @@
                 <li>離心去除血水</li>
                 <li>移植脂肪</li>
             </ol>
-            <img   src="~/assets/img/service/surgerySculpture/autologousFat/2.jpg" alt="示意圖">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/autologousFat/2.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/autologousFat/2.jpg" alt="示意圖">
+            </picture>
             <ul>
                 <li>- 抽出與離心過程對脂肪傷害大</li>
                 <li>- 脂肪暴露空氣增加感染機率</li>
@@ -45,7 +54,10 @@
                 <li>自然沉澱法脂血分離</li>
                 <li>移植健康的脂肪</li>
             </ol>
-            <img   src="~/assets/img/service/surgerySculpture/autologousFat/3.jpg" alt="示意圖">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/autologousFat/3.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/autologousFat/3.jpg" alt="示意圖">
+            </picture>
             <ul>
                 <li>+ 以水溫和抽出+沉澱法收集 對脂肪細胞傷害小</li>
                 <li>+ 脂肪不暴露空氣可降低感染率</li>

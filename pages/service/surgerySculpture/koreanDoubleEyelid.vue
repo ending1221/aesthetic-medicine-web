@@ -9,7 +9,10 @@
         <Title title="韓式釘書機雙眼皮" titleEn="KOREAN DOUBLE EYELID" />
        
         <div class="article-container service-page">
-            <img src="~/assets/img/service/surgerySculpture/koreanDoubleEyelid/banner.jpg" alt="韓式釘書機雙眼皮 Banner">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/koreanDoubleEyelid/banner.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/koreanDoubleEyelid/banner.jpg" alt="韓式釘書機雙眼皮 Banner">
+            </picture>
         </div>
         <div class="article-container">
             <h2>美麗功效</h2>
@@ -36,7 +39,10 @@
         <div class="article-container">
             <h2>適用對象</h2>
             <p>適合單眼皮、眼皮脂肪較少、眼皮不鬆垂之族群。</p>
-            <img   src="~/assets/img/service/surgerySculpture/koreanDoubleEyelid/1.jpg" alt="訂做您的 主電眼">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/koreanDoubleEyelid/1.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/koreanDoubleEyelid/1.jpg" alt="訂做您的 主電眼">
+            </picture>
         </div>
          
         <div class="article-container">
@@ -56,14 +62,22 @@
         </div>
         <div class="article-container">
             <h2>美麗案例</h2>
-            <img   src="~/assets/img/service/surgerySculpture/koreanDoubleEyelid/案例1.png" alt="案例1
-            ">
-            <img   src="~/assets/img/service/surgerySculpture/koreanDoubleEyelid/案例2.png" alt="案例2
-            ">
-            <img   src="~/assets/img/service/surgerySculpture/koreanDoubleEyelid/案例3.png" alt="案例3
-            ">
-            <img   src="~/assets/img/service/surgerySculpture/koreanDoubleEyelid/案例4.png" alt="案例4
-            ">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/koreanDoubleEyelid/案例1.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/koreanDoubleEyelid/案例1.png" alt="案例1">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/koreanDoubleEyelid/案例2.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/koreanDoubleEyelid/案例2.png" alt="案例2">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/koreanDoubleEyelid/案例3.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/koreanDoubleEyelid/案例3.png" alt="案例3">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/koreanDoubleEyelid/案例4.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/koreanDoubleEyelid/案例4.png" alt="案例4">
+            </picture>
             <h4>療程效果會因個人體質而有所差異</h4>
         </div>
     </div>

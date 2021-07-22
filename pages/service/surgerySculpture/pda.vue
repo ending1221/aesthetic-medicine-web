@@ -9,12 +9,18 @@
         <Title title="羽毛線" titleEn="PDA" />
        
         <div class="article-container service-page">
-            <img src="~/assets/img/service/surgerySculpture/pda/banner.jpg" alt="羽毛線 Banner">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/pda/banner.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/pda/banner.jpg" alt="羽毛線 Banner">
+            </picture>
         </div>
         <div class="article-container">
             <h2>美麗功效</h2>
             <p>(PDO、PDS原本是美國FDA核准用於心臟外科手術的縫合線，目前已經被廣泛運用在整形手術上)。PDO、PDS線材能在皮下形成支撐力，順著肌肉紋理由下往上埋入後，如同在真皮層搭起穩固的網狀結構，能有效對抗地心引力帶來的下垂力量,尤其對於較明顯的老化鬆弛，能物理性定點穩住不斷向下移動的顏面組織，進而達到緊緻的效果。植入身體後，可被身體吸收，與皮膚組織起協同作用，所以不用拆線。</p>
-            <img   src="~/assets/img/service/surgerySculpture/pda/1.jpg" alt="示意圖">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/pda/1.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/pda/1.jpg" alt="示意圖">
+            </picture>
         </div>
          
         <div class="article-container">
@@ -25,7 +31,10 @@
                 <li>施打更平順、舒適度較高</li>
                 <li>人體吸收速度慢、維持時間久(由於縫線被吸收時間較長，可能會出現刺激與出血反應)</li>
             </ol>
-            <img   src="~/assets/img/service/surgerySculpture/pda/2.jpg" alt="線材前後比較">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/pda/2.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/pda/2.jpg" alt="線材前後比較">
+            </picture>
         </div>
          
         <div class="article-container">

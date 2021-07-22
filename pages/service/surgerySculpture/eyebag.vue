@@ -9,7 +9,10 @@
         <Title title="眼袋手術" titleEn="EYEBAG" />
        
         <div class="article-container service-page">
-            <img src="~/assets/img/service/surgerySculpture/eyebag/banner.jpg" alt="眼袋手術 Banner">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/eyebag/banner.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/eyebag/banner.jpg" alt="眼袋手術 Banner">
+            </picture>
 
             <h2>擁有明眸青春的雙眼</h2>
             <p>初次見面，多數人最先注意對方的臉部，最深刻的部分就是眼睛。眼睛是靈魂之窗也是五官之中最受人注目的焦點，就算輪廓再立體，五官在精緻，即便擁有一雙迷人的大眼，但眼袋的出現，不但使兩眼無神也不小心洩漏了年紀的痕跡，使美麗大打折扣，失去了原有的神采。</p>
@@ -32,19 +35,29 @@
          
             <h2>手術方式</h2>
             <h3>內開式眼袋手術</h3><p>適合眼窩脂肪突出的年輕族群。手術方式經由內眼瞼處結膜下1~2個切口將眼窩脂肪取出，隱藏式傷口。主要的優點在於能保留臥蠶而且外觀不會有疤痕產生，術後恢復時間較短。</p>
-            <img   src="~/assets/img/service/surgerySculpture/eyebag/1.jpg" alt="開式眼袋手術">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/eyebag/1.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/eyebag/1.jpg" alt="開式眼袋手術">
+            </picture>
         
          
             <h3>外切式眼袋手術</h3>
             <p>手術方式是沿著下眼睫毛做切口，將多餘脂肪適量取出或是做脂肪回填淚溝，特色是可將鬆弛的皮膚移除，適合年紀較長者，可以達到去除眼袋脂肪及下眼袋皺紋之雙重效果。</p>
-            <img   src="~/assets/img/service/surgerySculpture/eyebag/2.jpg" alt="外切式眼袋手術">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/eyebag/2.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/eyebag/2.jpg" alt="外切式眼袋手術">
+            </picture>
             <h4>本療程的效果可能因個人體質的不同而有差異，請務必與醫師溝通諮詢</h4>
          
             <h2>美麗案例</h2>
-            <img   src="~/assets/img/service/surgerySculpture/eyebag/案例1.png" alt="案例1
-            ">
-            <img   src="~/assets/img/service/surgerySculpture/eyebag/案例2.png" alt="案例2
-            ">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/eyebag/案例1.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/eyebag/案例1.png" alt="案例1">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/eyebag/案例2.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/eyebag/案例2.png" alt="案例2">
+            </picture>
             <h4>療程效果會因個人體質而有所差異</h4>
          
             <h2>術後小叮嚀</h2>

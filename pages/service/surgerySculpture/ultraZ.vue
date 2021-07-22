@@ -9,7 +9,10 @@
         <Title title="腋下除臭(新型極速香波機)" titleEn="ULTRA-Z" />
        
         <div class="article-container service-page">
-            <img src="~/assets/img/service/surgerySculpture/ultraZ/banner.jpg" alt="腋下除臭(新型極速香波機) Banner">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/ultraZ/banner.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/ultraZ/banner.jpg" alt="腋下除臭(新型極速香波機) Banner">
+            </picture>
         </div>
         <div class="article-container">
             <h2>何謂狐臭？</h2>
@@ -21,7 +24,10 @@
             <h2>超音波狐臭治療原理</h2>
             <p>傳統治療狐臭的方法很多，雖然同樣能成功「除臭」，但是也隱伏著許多問題。譬如傷口太大照顧不易、術後恢復期過長、或者效果不持久，需要定期執行，所費不貲，反觀新一代的超音波狐臭治療相較之下，則不會產生這麼多困擾。</p>
             <p>超音波狐臭治療的原理是利用Ultra-Z 超音波的快速震盪作用，在體內產生共振，破壞頂漿腺，成功率極高。由於頂漿腺的位置相當接近表皮肌膚，超音波雷射能夠非常精準地針對頂漿腺作用，其它的神經血管則不易受到影響。此外，受到破壞細胞後不易再增生，能夠長期維持效果。更因超音波作用時會產生攝氏40至45度的熱能，在術中可發揮止血作用，將出血量控制到最低，術後恢復期也將大幅縮短。</p>
-            <img   src="~/assets/img/service/surgerySculpture/ultraZ/1.jpg" alt="超音波狐臭治療原理">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/ultraZ/1.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/ultraZ/1.jpg" alt="超音波狐臭治療原理">
+            </picture>
         </div>
          
         <div class="article-container">

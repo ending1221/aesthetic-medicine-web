@@ -9,7 +9,10 @@
         <Title title="墊下巴" titleEn="CHIN IMPLANT" />
        
         <div class="article-container service-page">
-            <img src="~/assets/img/service/surgerySculpture/chinImplant/banner.jpg" alt="墊下巴 Banner">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/chinImplant/banner.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/chinImplant/banner.jpg" alt="墊下巴 Banner">
+            </picture>
         </div>
         <div class="article-container">
             <h2>下巴是全臉線條完美的關鍵</h2>
@@ -33,7 +36,10 @@
          
         <div class="article-container">
             <h3>什麼是下巴黃金比例</h3>
-            <img   src="~/assets/img/service/surgerySculpture/chinImplant/1.jpg" alt="下巴黃金比">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/chinImplant/1.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/chinImplant/1.jpg" alt="下巴黃金比">
+            </picture>
             <p>依人體美學的黃金比例，下巴位於臉部下方中心，其形狀左右了臉部兩側的平衡。下巴的長度應佔全臉長度的1/6，而下巴最尖的位置，應該與眉心在同一個垂直線上。</p>
             <ul>
                 <li>+ 嘴唇下方陰影不可以太深</li>
@@ -49,10 +55,14 @@
          
         <div class="article-container">
             <h2>美麗案例</h2>
-            <img   src="~/assets/img/service/surgerySculpture/chinImplant/案例1.png" alt="案例1
-            ">
-            <img   src="~/assets/img/service/surgerySculpture/chinImplant/案例2.png" alt="案例2
-            ">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/chinImplant/案例1.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/chinImplant/案例1.png" alt="案例1">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/chinImplant/案例2.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/chinImplant/案例2.png" alt="案例2">
+            </picture>
             <h4>療程效果會因個人體質而有所差異</h4>
         </div>
         <div class="article-container">

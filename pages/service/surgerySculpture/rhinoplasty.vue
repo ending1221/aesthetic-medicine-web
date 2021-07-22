@@ -9,7 +9,10 @@
         <Title title="隆鼻" titleEn="RHINOPLASTY" />
        
         <div class="article-container service-page">
-            <img src="~/assets/img/service/surgerySculpture/rhinoplasty/banner.jpg" alt="隆鼻 Banner">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/rhinoplasty/banner.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/rhinoplasty/banner.jpg" alt="隆鼻 Banner">
+            </picture>
         </div>
         <div class="article-container">
             <h2>美麗功效</h2>
@@ -19,7 +22,10 @@
         <div class="article-container">
             <h2>黃金比例</h2>
             <p>目前公認的東方美女標準臉型，長寬比例符合“黃金分割”，額頭飽滿，面頰棱角柔美,下顎圓潤流暢,角度為120度，顱頂至鼻根與鼻根至下巴等長，髮際至眉心、眉心至鼻下、鼻下至下頜等距。鼻尖-嘴唇-顎下點基本為一直線。</p>
-            <img   src="~/assets/img/service/surgerySculpture/rhinoplasty/1.jpg" alt="黃金比例示意圖">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/rhinoplasty/1.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/rhinoplasty/1.jpg" alt="黃金比例示意圖">
+            </picture>
         </div>
          
         <div class="article-container">
@@ -28,7 +34,10 @@
                 <li>+ 在鼻孔內作一小切口，選擇植入L型或I型人工鼻模，把鼻樑和鼻尖墊高。此種隆鼻方法看不見傷口，手術傷口隱藏在鼻孔內，局部麻醉即可。</li>
                 <li>+ 採掀開式隆鼻手術，將鼻頭掀開，把人工鼻骨放入，此種方式傷口較大，但可處理的問題較多。</li>
             </ul>
-            <img   src="~/assets/img/service/surgerySculpture/rhinoplasty/2.jpg" alt="一般傳統隆鼻手術的人工鼻骨植入手術方法">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/rhinoplasty/2.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/rhinoplasty/2.jpg" alt="一般傳統隆鼻手術的人工鼻骨植入手術方法">
+            </picture>
         </div>
          
         <div class="article-container">
@@ -109,14 +118,22 @@
          
         <div class="article-container">
             <h2>美麗案例</h2>
-            <img   src="~/assets/img/service/surgerySculpture/rhinoplasty/案例1.png" alt="案例1
-            ">
-            <img   src="~/assets/img/service/surgerySculpture/rhinoplasty/案例2.png" alt="案例2
-            ">
-            <img   src="~/assets/img/service/surgerySculpture/rhinoplasty/案例3.png" alt="案例3
-            ">
-            <img   src="~/assets/img/service/surgerySculpture/rhinoplasty/案例4.png" alt="案例4
-            ">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/rhinoplasty/案例1.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/rhinoplasty/案例1.png" alt="案例1">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/rhinoplasty/案例2.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/rhinoplasty/案例1.png" alt="案例2">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/rhinoplasty/案例3.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/rhinoplasty/案例1.png" alt="案例3">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/rhinoplasty/案例4.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/rhinoplasty/案例1.png" alt="案例4">
+            </picture>
             <h4>療程效果會因個人體質而有所差異</h4>
         </div>
     </div>

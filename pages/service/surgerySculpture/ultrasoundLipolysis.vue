@@ -9,8 +9,14 @@
         <Title title="Z波黃金脂雕" titleEn="ULTEASOUND LIPOLYSIS" />
        
         <div class="article-container service-page">
-            <img src="~/assets/img/service/surgerySculpture/ultrasoundLipolysis/banner.jpg" alt="Z波黃金脂雕 Banner">
-            <img src="~/assets/img/service/surgerySculpture/ultrasoundLipolysis/banner1.jpg" alt="Z波黃金脂雕 Banner">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/ultrasoundLipolysis/banner.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/ultrasoundLipolysis/banner.jpg" alt="Z波黃金脂雕 Banner">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/ultrasoundLipolysis/banner1.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/ultrasoundLipolysis/banner1.jpg" alt="Z波黃金脂雕 Banner">
+            </picture>
         </div>
         <div class="article-container">
             <h2>美麗功效</h2>
@@ -19,7 +25,10 @@
          
         <div class="article-container">
             <h2>超音波精雕曲線抽脂 – 女性常見抽脂部位</h2>
-            <img   src="~/assets/img/service/surgerySculpture/ultrasoundLipolysis/1.png" alt="女性常見抽脂部位">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/ultrasoundLipolysis/1.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/ultrasoundLipolysis/1.png" alt="女性常見抽脂部位">
+            </picture>
             <h3>手臂粗大/副乳外漏</h3>
             <p>掰掰袖再加上副乳爆露顯得女性身材壯碩，利用抽脂技術360度手臂環抽合併副乳引流取脂塑造纖細雙臂。</p>
             <h3>小腹凸出無腰身</h3>
@@ -34,13 +43,22 @@
             <h2>超音波抽脂(Ultra-Z Super Ultrasound Lipolysis) 原理</h2>
             <p>愛美無須承擔風險，風靡歐、美、韓的Z波黃金脂雕，就是新一代的超音波減脂技術，利用高頻率的音波震盪，將脂肪細胞加以破壞後，引流並代謝出體外，低風險、低疼痛、復原期短、效果佳，同時還能緊緻肌膚，讓您輕鬆享瘦秀曲線！</p>
             <p>利用超音波的頻率，在<b>不傷害神經、血管等組織</b>下，透過超音波能量累積，將固態的脂肪組織徹底破壞、乳化成液態脂肪。</p>
-            <img   src="~/assets/img/service/surgerySculpture/ultrasoundLipolysis/2.jpg" alt="超音波抽脂 脂肪狀態圖">
-            <img   src="~/assets/img/service/surgerySculpture/ultrasoundLipolysis/3.png" alt="超音波抽脂 脂肪狀態圖">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/ultrasoundLipolysis/2.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/ultrasoundLipolysis/2.jpg" alt="超音波抽脂 脂肪狀態圖">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/ultrasoundLipolysis/3.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/ultrasoundLipolysis/3.png" alt="超音波抽脂 脂肪狀態圖">
+            </picture>
         </div>
          
         <div class="article-container">
             <h2>超音波精雕曲線抽脂 – 優勢</h2>
-            <img   src="~/assets/img/service/surgerySculpture/ultrasoundLipolysis/4.png" alt="雕塑方式比一比">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/ultrasoundLipolysis/4.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/ultrasoundLipolysis/4.png" alt="雕塑方式比一比">
+            </picture>
             <ul>
                 <li>+ 傳統抽脂不易進行的部位</li>
                 <li>+ 縮短手術時間</li>
@@ -53,9 +71,18 @@
          
         <div class="article-container">
             <h2>美麗案例</h2>
-            <img   src="~/assets/img/service/surgerySculpture/ultrasoundLipolysis/案例1.png" alt="案例1">
-            <img   src="~/assets/img/service/surgerySculpture/ultrasoundLipolysis/案例2.png" alt="案例2">
-            <img   src="~/assets/img/service/surgerySculpture/ultrasoundLipolysis/案例3.png" alt="案例3">
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/ultrasoundLipolysis/案例1.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/ultrasoundLipolysis/案例1.png" alt="案例1">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/ultrasoundLipolysis/案例2.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/ultrasoundLipolysis/案例2.png" alt="案例2">
+            </picture>
+            <picture>
+                <source srcset="~/assets/img/service/surgerySculpture/ultrasoundLipolysis/案例3.webp" type="image/webp">
+                <img  src="~/assets/img/service/surgerySculpture/ultrasoundLipolysis/案例3.png" alt="案例3">
+            </picture>
             <h4>療程效果會因個人體質而有所差異</h4>
         </div>
          
