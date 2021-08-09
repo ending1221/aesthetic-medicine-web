@@ -47,8 +47,15 @@ export default {
         text-align: center;
         color: #832A57;
         position: relative;
-        @media screen and (max-width: 992px) {
-            padding: 3%;
+        @include pad-xl {
+            min-height: 250px;
+        }
+        @include pad {
+            padding: 3%; 
+            min-height: 225px;
+        }
+        @include mobile {
+            min-height: 180px;
         }
         &:hover {
             .service-detail{
