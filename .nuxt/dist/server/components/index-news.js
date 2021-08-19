@@ -57,12 +57,12 @@ module.exports = ___CSS_LOADER_EXPORT___;
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/index/News.vue?vue&type=template&id=49fa0045&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/index/News.vue?vue&type=template&id=62c66e2e&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"news-swiper-outside"},[_c('swiper',{ref:"mySwiper",attrs:{"options":_vm.swiperOption,"id":"news-swiper"}},_vm._l((_vm.testData),function(item){return _c('swiper-slide',{key:item.id,staticClass:"news-swiper-inside"},[_c('div',{staticClass:"news-img"},[_c('img',{attrs:{"src":item.imgsrc}})]),_vm._v(" "),_c('div',{staticClass:"news-text"},[_c('p',{staticClass:"news-time"},[_vm._v(_vm._s(item.time))]),_vm._v(" "),_c('h3',{staticClass:"news-title"},[_vm._v(_vm._s(item.title))]),_vm._v(" "),_c('p',{staticClass:"news-detail"},[_vm._v(_vm._s(item.detail))]),_vm._v(" "),_c('button',{staticClass:"news-btn btn",on:{"click":function($event){if(!$event.type.indexOf('key')&&_vm._k($event.keyCode,"left",37,$event.key,["Left","ArrowLeft"])){ return null; }if('button' in $event && $event.button !== 0){ return null; }return _vm.goToNewsContent(item.id)},"mouseup":function($event){if('button' in $event && $event.button !== 1){ return null; }return _vm.openNewTab(item.id)}}},[_vm._v("\n                    more\n                ")])])])}),1),_vm._ssrNode(" <div class=\"swiper-button-prev\"></div> <div class=\"swiper-button-next\"></div>")],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/index/News.vue?vue&type=template&id=49fa0045&
+// CONCATENATED MODULE: ./components/index/News.vue?vue&type=template&id=62c66e2e&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/index/News.vue?vue&type=script&lang=js&
 //
@@ -126,7 +126,7 @@ var staticRenderFns = []
     updateSwiper() {
       this.setSwiper(3, 30);
 
-      if (window.innerWidth <= 768) {
+      if (window.innerWidth <= 1024) {
         this.setSwiper(2, 15);
       }
 

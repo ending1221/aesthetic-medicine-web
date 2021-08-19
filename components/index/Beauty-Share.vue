@@ -61,7 +61,7 @@ export default {
         updateSwiper() {
             this.setSwiper(2, 30);
 
-            if (window.innerWidth <= 768) {
+            if (window.innerWidth <= 1024) {
                 this.setSwiper(1, 0);
             }
             

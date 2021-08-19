@@ -57,12 +57,12 @@ module.exports = ___CSS_LOADER_EXPORT___;
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/index/Beauty-Share.vue?vue&type=template&id=7b266a95&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/index/Beauty-Share.vue?vue&type=template&id=35a2824b&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"beauty-swiper-outside"},[_c('swiper',{ref:"mySwiper",attrs:{"options":_vm.swiperOption,"id":"beauty-swiper"}},_vm._l((_vm.testData),function(item){return _c('swiper-slide',{key:item.id,staticClass:"beauty-swiper-inside"},[_c('div',{staticClass:"beauty-img"},[_c('img',{attrs:{"src":item.imgsrc,"alt":""}})]),_vm._v(" "),_c('div',{staticClass:"beauty-text"},[_c('h3',{staticClass:"beauty-title"},[_vm._v(_vm._s(item.id)+" "+_vm._s(item.title))]),_vm._v(" "),_c('div',{staticClass:"beauty-detail",domProps:{"innerHTML":_vm._s(item.detail)}}),_vm._v(" "),_c('button',{staticClass:"beauty-btn btn",on:{"click":function($event){if(!$event.type.indexOf('key')&&_vm._k($event.keyCode,"left",37,$event.key,["Left","ArrowLeft"])){ return null; }if('button' in $event && $event.button !== 0){ return null; }return _vm.goToNewsContent(item.id)},"mouseup":function($event){if('button' in $event && $event.button !== 1){ return null; }return _vm.openNewTab(item.id)}}},[_vm._v("\n                    more\n                ")])])])}),1),_vm._ssrNode(" <div class=\"swiper-button-prev\"></div> <div class=\"swiper-button-next\"></div>")],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/index/Beauty-Share.vue?vue&type=template&id=7b266a95&
+// CONCATENATED MODULE: ./components/index/Beauty-Share.vue?vue&type=template&id=35a2824b&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/index/Beauty-Share.vue?vue&type=script&lang=js&
 //
@@ -130,7 +130,7 @@ var staticRenderFns = []
     updateSwiper() {
       this.setSwiper(2, 30);
 
-      if (window.innerWidth <= 768) {
+      if (window.innerWidth <= 1024) {
         this.setSwiper(1, 0);
       }
 
