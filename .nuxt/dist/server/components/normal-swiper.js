@@ -57,14 +57,18 @@ module.exports = ___CSS_LOADER_EXPORT___;
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Normal-Swiper.vue?vue&type=template&id=21b89936&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('swiper',{attrs:{"options":_vm.swiperOption,"id":(_vm.className + "-swiper")}},[_vm._t("default"),_vm._v(" "),(_vm.navigation)?_c('div',{staticClass:"swiper-button-prev"}):_vm._e(),_vm._v(" "),(_vm.navigation)?_c('div',{staticClass:"swiper-button-next"}):_vm._e(),_vm._v(" "),(_vm.pagination)?_c('div',{staticClass:"swiper-pagination",attrs:{"slot":"pagination"},slot:"pagination"}):_vm._e()],2)}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Normal-Swiper.vue?vue&type=template&id=06799ac3&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('swiper',{attrs:{"options":_vm.swiperOption,"id":(_vm.className + "-swiper")}},[_vm._t("default"),_vm._v(" "),(_vm.navigation && _vm.data.length > 1)?_c('div',{class:(_vm.className + " swiper-button-prev")}):_vm._e(),_vm._v(" "),(_vm.navigation && _vm.data.length > 1)?_c('div',{class:(_vm.className + " swiper-button-next")}):_vm._e(),_vm._v(" "),(_vm.pagination)?_c('div',{staticClass:"swiper-pagination",attrs:{"slot":"pagination"},slot:"pagination"}):_vm._e()],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/Normal-Swiper.vue?vue&type=template&id=21b89936&
+// CONCATENATED MODULE: ./components/Normal-Swiper.vue?vue&type=template&id=06799ac3&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Normal-Swiper.vue?vue&type=script&lang=js&
+//
+//
+//
+//
 //
 //
 //
@@ -91,6 +95,11 @@ var staticRenderFns = []
     pagination: {
       default: true,
       type: Boolean
+    },
+    data: {
+      default: () => [],
+      require: true,
+      type: Array
     }
   },
 
@@ -110,8 +119,8 @@ var staticRenderFns = []
           delay: 5000
         },
         navigation: {
-          nextEl: `#${this.className}-swiper .swiper-button-next`,
-          prevEl: `#${this.className}-swiper .swiper-button-prev`
+          nextEl: `#${this.className}-swiper .${this.className}.swiper-button-next`,
+          prevEl: `#${this.className}-swiper .${this.className}.swiper-button-prev`
         },
         effect: 'fade'
       }

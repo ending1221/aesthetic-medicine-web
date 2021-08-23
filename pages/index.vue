@@ -40,6 +40,7 @@
         <section class="section1">
             <Title title="檔期活動" titleEn="EVENTS" />
             <NormalSwiper
+                :data="eventImg"
                 className="event" >
                 <swiper-slide 
                     class="event-swiper-inside" 

@@ -3,8 +3,12 @@
         :options="swiperOption" 
         :id="`${className}-swiper`">
         <slot></slot>
-        <div v-if="navigation" class="swiper-button-prev"></div>
-        <div v-if="navigation" class="swiper-button-next"></div>
+        <div 
+            v-if="navigation && data.length > 1" 
+            :class="`${className} swiper-button-prev`"></div>
+        <div 
+            v-if="navigation && data.length > 1" 
+            :class="`${className} swiper-button-next`"></div>
 
         <div v-if="pagination" class="swiper-pagination" slot="pagination"></div>
     </swiper>
@@ -25,6 +29,11 @@ export default {
         pagination: {
             default: true,
             type: Boolean
+        },
+        data: {
+            default: () => ([]),
+            require: true,
+            type: Array
         }
     },
     data(){
@@ -43,8 +52,8 @@ export default {
                     delay: 5000
                 },
                 navigation: {
-                    nextEl: `#${this.className}-swiper .swiper-button-next`,
-                    prevEl: `#${this.className}-swiper .swiper-button-prev`
+                    nextEl: `#${this.className}-swiper .${this.className}.swiper-button-next`,
+                    prevEl: `#${this.className}-swiper .${this.className}.swiper-button-prev`
                 },
                 effect: 'fade'
             }

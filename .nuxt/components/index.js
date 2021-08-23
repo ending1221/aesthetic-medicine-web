@@ -13,8 +13,8 @@ export { default as IndexBeautyShare } from '../../components/index/Beauty-Share
 export { default as IndexNews } from '../../components/index/News.vue'
 export { default as IndexServiceDetail } from '../../components/index/Service-Detail.vue'
 export { default as IndexService } from '../../components/index/Service.vue'
-export { default as Team } from '../../components/team/Team.vue'
 export { default as BeautyItem } from '../../components/beautyShare/Beauty-Item.vue'
+export { default as Team } from '../../components/team/Team.vue'
 
 export const LazyFooter = import('../../components/Footer.vue' /* webpackChunkName: "components/footer" */).then(c => wrapFunctional(c.default || c))
 export const LazyHeaderSubMenu = import('../../components/Header-SubMenu.vue' /* webpackChunkName: "components/header-sub-menu" */).then(c => wrapFunctional(c.default || c))
@@ -29,5 +29,5 @@ export const LazyIndexBeautyShare = import('../../components/index/Beauty-Share.
 export const LazyIndexNews = import('../../components/index/News.vue' /* webpackChunkName: "components/index-news" */).then(c => wrapFunctional(c.default || c))
 export const LazyIndexServiceDetail = import('../../components/index/Service-Detail.vue' /* webpackChunkName: "components/index-service-detail" */).then(c => wrapFunctional(c.default || c))
 export const LazyIndexService = import('../../components/index/Service.vue' /* webpackChunkName: "components/index-service" */).then(c => wrapFunctional(c.default || c))
-export const LazyTeam = import('../../components/team/Team.vue' /* webpackChunkName: "components/team" */).then(c => wrapFunctional(c.default || c))
 export const LazyBeautyItem = import('../../components/beautyShare/Beauty-Item.vue' /* webpackChunkName: "components/beauty-item" */).then(c => wrapFunctional(c.default || c))
+export const LazyTeam = import('../../components/team/Team.vue' /* webpackChunkName: "components/team" */).then(c => wrapFunctional(c.default || c))

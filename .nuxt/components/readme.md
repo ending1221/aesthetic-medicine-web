@@ -19,5 +19,5 @@ You can directly use them in pages and other components without the need to impo
 - `<IndexNews>` | `<index-news>` (components/index/News.vue)
 - `<IndexServiceDetail>` | `<index-service-detail>` (components/index/Service-Detail.vue)
 - `<IndexService>` | `<index-service>` (components/index/Service.vue)
-- `<Team>` | `<team>` (components/team/Team.vue)
 - `<BeautyItem>` | `<beauty-item>` (components/beautyShare/Beauty-Item.vue)
+- `<Team>` | `<team>` (components/team/Team.vue)

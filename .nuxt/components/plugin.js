@@ -15,8 +15,8 @@ const components = {
   IndexNews: () => import('../../components/index/News.vue' /* webpackChunkName: "components/index-news" */).then(c => wrapFunctional(c.default || c)),
   IndexServiceDetail: () => import('../../components/index/Service-Detail.vue' /* webpackChunkName: "components/index-service-detail" */).then(c => wrapFunctional(c.default || c)),
   IndexService: () => import('../../components/index/Service.vue' /* webpackChunkName: "components/index-service" */).then(c => wrapFunctional(c.default || c)),
-  Team: () => import('../../components/team/Team.vue' /* webpackChunkName: "components/team" */).then(c => wrapFunctional(c.default || c)),
-  BeautyItem: () => import('../../components/beautyShare/Beauty-Item.vue' /* webpackChunkName: "components/beauty-item" */).then(c => wrapFunctional(c.default || c))
+  BeautyItem: () => import('../../components/beautyShare/Beauty-Item.vue' /* webpackChunkName: "components/beauty-item" */).then(c => wrapFunctional(c.default || c)),
+  Team: () => import('../../components/team/Team.vue' /* webpackChunkName: "components/team" */).then(c => wrapFunctional(c.default || c))
 }
 
 for (const name in components) {

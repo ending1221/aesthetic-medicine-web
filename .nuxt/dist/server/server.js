@@ -3575,8 +3575,8 @@ const components = {
   IndexNews: () => __webpack_require__.e(/* import() | components/index-news */ 3).then(__webpack_require__.bind(null, 284)).then(c => wrapFunctional(c.default || c)),
   IndexServiceDetail: () => __webpack_require__.e(/* import() | components/index-service-detail */ 5).then(__webpack_require__.bind(null, 283)).then(c => wrapFunctional(c.default || c)),
   IndexService: () => __webpack_require__.e(/* import() | components/index-service */ 4).then(__webpack_require__.bind(null, 282)).then(c => wrapFunctional(c.default || c)),
-  Team: () => __webpack_require__.e(/* import() | components/team */ 8).then(__webpack_require__.bind(null, 281)).then(c => wrapFunctional(c.default || c)),
-  BeautyItem: () => __webpack_require__.e(/* import() | components/beauty-item */ 1).then(__webpack_require__.bind(null, 190)).then(c => wrapFunctional(c.default || c))
+  BeautyItem: () => __webpack_require__.e(/* import() | components/beauty-item */ 1).then(__webpack_require__.bind(null, 190)).then(c => wrapFunctional(c.default || c)),
+  Team: () => __webpack_require__.e(/* import() | components/team */ 8).then(__webpack_require__.bind(null, 281)).then(c => wrapFunctional(c.default || c))
 };
 
 for (const name in components) {
