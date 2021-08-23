@@ -42,6 +42,16 @@ export default {
             swiperOption: {
                 slidesPerView: 2,
                 spaceBetween: 30,
+                breakpoints: {
+                    1280: {
+                        slidesPerView: 2,
+                        spaceBetween: 30,
+                    },
+                    320: {
+                        slidesPerView: 1,
+                        spaceBetween: 0,
+                    }
+                },
                 navigation: {
                     nextEl: '.swiper-button-next',
                     prevEl: '.swiper-button-prev'
@@ -51,22 +61,6 @@ export default {
         }
     },
     methods: {
-        setSwiper(slidesPerView, spaceBetween) {
-            console.log(this.$refs.mySwiper.swiperInstance);
-            if(this.$refs.mySwiper.swiperInstance) {
-                this.$refs.mySwiper.swiperInstance.params.slidesPerView = slidesPerView;
-                this.$refs.mySwiper.swiperInstance.params.spaceBetween = spaceBetween;
-            }
-        },
-        updateSwiper() {
-            this.setSwiper(2, 30);
-
-            if (window.innerWidth <= 1024) {
-                this.setSwiper(1, 0);
-            }
-            
-            if(this.$refs.mySwiper.swiperInstance) this.$refs.mySwiper.swiperInstance.update();
-        },
         goToNewsContent(id) {
             this.$router.push(`/beautyShare/${id}`);
         },
@@ -76,9 +70,6 @@ export default {
         },
     },
     mounted() {
-        window.addEventListener('resize', this.updateSwiper);
-        this.updateSwiper();
-
         let arr = [1,2,3,4,5,6];
         arr.forEach((item)=>{
             this.testData.push({
@@ -89,9 +80,6 @@ export default {
             })
         })
         console.log(this.testData);
-    },
-    destroyed() {
-        window.removeEventListener('resize', this.updateSwiper)
     }
 }
 </script>

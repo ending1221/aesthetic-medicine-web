@@ -13,20 +13,19 @@
             </a>
             <ul class="nav-group" :class="{open: isOpen}">
                 <li class="nav-item" 
-                @click="handleMainMenuOpen(0, $event)" 
-                data-index="0">
+                @click="handleMainMenuOpen(1, $event)" 
+                data-index="1">
                     <a class="nav-item-a" href="javascript:;">關於美仕媞 
                         <fa :icon="['fas', 'angle-down']" />
                     </a>
 
                     <ul class="nav-mainMenu" 
-                        :class="{open: mainMenuIsOpen[0]}">
+                        :class="{open: mainMenuIsOpenIndex == 1}">
                         <li class="nav-mainMenu-item">
                             <NuxtLink class="inside-a" to="/maxBeauty/about">關於我們</NuxtLink>
                         </li>
                         <li 
-                            class="nav-mainMenu-item"
-                            @click="handleSubMenuOpen('team')" >
+                            class="nav-mainMenu-item" >
                             <NuxtLink class="nav-subItem-a inside-a" to="/maxBeauty/team">醫療團隊 <fa :icon="['fas', 'angle-down']" v-if="bodyWidth > 996" /></NuxtLink>
                             <SubMenu 
                                 :items="teamData" 
@@ -44,22 +43,22 @@
                     </ul>
                 </li>
                 <li class="nav-item service-group" 
-                    @click="handleMainMenuOpen(1, $event)" 
-                    data-index="1">
+                    @click="handleMainMenuOpen(2, $event)" 
+                    data-index="2">
                     <a class="nav-item-a" href="javascript:;">服務項目 
                         <fa :icon="['fas', 'angle-down']" />
                     </a>
                     <ul 
                         class="nav-mainMenu" 
-                        :class="{open: mainMenuIsOpen[1]}" >
+                        :class="{open: mainMenuIsOpenIndex == 2}" >
 
                         <li class="nav-mainMenu-item" 
-                            @click="handleSubMenuOpen(index)" 
+                            @click="handleSubMenuOpen(item.name)" 
                             v-for="(item, index) in service" 
-                            :key="item.name" >
+                            :key="item.description + index" >
                             <a class="nav-subItem-a inside-a" href="javascript:;">{{item.name}} <fa :icon="['fas', 'angle-down']" /></a>
                             <SubMenu 
-                                :class="{open: subMenuIsOpen[index]}" 
+                                :class="{open: subMenuIsOpenName == item.name}" 
                                 :items="item.data" />
                         </li>
                     </ul>
@@ -85,55 +84,34 @@ export default {
         return {
             bodyWidth: null,
             isOpen: false,
-            mainMenuIsOpen: {
-                0: false,
-                1: false
-            },
-            subMenuIsOpen: {
-                'team': false,
-                0: false,
-                1: false,
-                2: false,
-                3: false,
-                4: false,
-                5: false, 
-            },
             service: {},
-            teamData: []
+            teamData: [],
+            mainMenuIsOpenIndex: '',
+            subMenuIsOpenName: ''
         };
     },
     mounted() {
         this.bodyWidth = document.body.clientWidth;
-        this.getServiceData();
-        this.teamData = this.$store.getters['team/getTeamData'];
+        this.teamData = this.$store.getters['team/getTeamData'];        
     },
     watch: {
         $route(r) {
             this.isOpen = false;
+            this.mainMenuIsOpenIndex = '';
+            this.subMenuIsOpenName = '';
         },
     },
     methods: {
-        getServiceData() {
-            this.service = this.$store.getters['service/getServiceContent'];
-        },
         handleMenuOpen() {
             this.isOpen = !this.isOpen;
         },
         handleMainMenuOpen(index, $event) {
             if($event.target.className !== 'nav-item-a') return
-
-            this.mainMenuIsOpen[index] = !this.mainMenuIsOpen[index];
-            this.changeAllMenuState(this.mainMenuIsOpen, index);
-            this.changeAllMenuState(this.subMenuIsOpen, '');
+            this.mainMenuIsOpenIndex = this.mainMenuIsOpenIndex == index ? '' : index;
+            this.subMenuIsOpenName = '';
         },
-        handleSubMenuOpen(index) {
-            this.subMenuIsOpen[index] = !this.subMenuIsOpen[index];
-            this.changeAllMenuState(this.subMenuIsOpen, index);
-        },
-        changeAllMenuState(menuName, index) {
-            Object.keys(menuName).forEach((key) => {
-                if (parseInt(key) !== parseInt(index)) menuName[key] = false;
-            })
+        handleSubMenuOpen(name) {
+            this.subMenuIsOpenName = this.subMenuIsOpenName == name ? '' : name;
         }
     },
 }

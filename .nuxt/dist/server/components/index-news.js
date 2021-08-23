@@ -57,12 +57,12 @@ module.exports = ___CSS_LOADER_EXPORT___;
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/index/News.vue?vue&type=template&id=62c66e2e&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/index/News.vue?vue&type=template&id=bfd01260&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"news-swiper-outside"},[_c('swiper',{ref:"mySwiper",attrs:{"options":_vm.swiperOption,"id":"news-swiper"}},_vm._l((_vm.testData),function(item){return _c('swiper-slide',{key:item.id,staticClass:"news-swiper-inside"},[_c('div',{staticClass:"news-img"},[_c('img',{attrs:{"src":item.imgsrc}})]),_vm._v(" "),_c('div',{staticClass:"news-text"},[_c('p',{staticClass:"news-time"},[_vm._v(_vm._s(item.time))]),_vm._v(" "),_c('h3',{staticClass:"news-title"},[_vm._v(_vm._s(item.title))]),_vm._v(" "),_c('p',{staticClass:"news-detail"},[_vm._v(_vm._s(item.detail))]),_vm._v(" "),_c('button',{staticClass:"news-btn btn",on:{"click":function($event){if(!$event.type.indexOf('key')&&_vm._k($event.keyCode,"left",37,$event.key,["Left","ArrowLeft"])){ return null; }if('button' in $event && $event.button !== 0){ return null; }return _vm.goToNewsContent(item.id)},"mouseup":function($event){if('button' in $event && $event.button !== 1){ return null; }return _vm.openNewTab(item.id)}}},[_vm._v("\n                    more\n                ")])])])}),1),_vm._ssrNode(" <div class=\"swiper-button-prev\"></div> <div class=\"swiper-button-next\"></div>")],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/index/News.vue?vue&type=template&id=62c66e2e&
+// CONCATENATED MODULE: ./components/index/News.vue?vue&type=template&id=bfd01260&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/index/News.vue?vue&type=script&lang=js&
 //
@@ -106,6 +106,16 @@ var staticRenderFns = []
       swiperOption: {
         slidesPerView: 3,
         spaceBetween: 30,
+        breakpoints: {
+          1024: {
+            slidesPerView: 2,
+            spaceBetween: 15
+          },
+          500: {
+            slidesPerView: 1,
+            spaceBetween: 0
+          }
+        },
         navigation: {
           nextEl: '.news-swiper-outside .swiper-button-next',
           prevEl: '.news-swiper-outside .swiper-button-prev'
@@ -116,27 +126,6 @@ var staticRenderFns = []
   },
 
   methods: {
-    setSwiper(slidesPerView, spaceBetween) {
-      if (this.$refs.mySwiper.swiperInstance) {
-        this.$refs.mySwiper.swiperInstance.params.slidesPerView = slidesPerView;
-        this.$refs.mySwiper.swiperInstance.params.spaceBetween = spaceBetween;
-      }
-    },
-
-    updateSwiper() {
-      this.setSwiper(3, 30);
-
-      if (window.innerWidth <= 1024) {
-        this.setSwiper(2, 15);
-      }
-
-      if (window.innerWidth <= 500) {
-        this.setSwiper(1, 0);
-      }
-
-      this.$refs.mySwiper.swiperInstance.update();
-    },
-
     scrollToPageTop() {
       window.scrollTo({
         top: 0,
@@ -159,8 +148,6 @@ var staticRenderFns = []
   },
 
   mounted() {
-    window.addEventListener('resize', this.updateSwiper);
-    this.updateSwiper();
     let arr = [1, 2, 3, 4, 5, 6];
     arr.forEach(item => {
       this.testData.push({
@@ -171,10 +158,6 @@ var staticRenderFns = []
         detail: '新冠肺炎疫情爆發，美仕媞時尚醫美診所農曆年後實施各項措施，包含全面加強消毒防疫、每日定時以醫療用次氯酸水淨化空氣及酒精消毒環境加強防疫，員工每日健康自主檢查、加強衛教及配戴口罩，每位貴賓入店時確實測量體溫'
       });
     });
-  },
-
-  destroyed() {
-    window.removeEventListener("resize", this.updateSwiper);
   }
 
 });
