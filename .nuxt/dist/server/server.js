@@ -675,12 +675,12 @@ module.exports.__inject__ = function (context) {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Header.vue?vue&type=template&id=5e212cd1&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Header.vue?vue&type=template&id=760cc31b&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('header',{attrs:{"id":"header"}},[_vm._ssrNode("<nav class=\"navbar\">","</nav>",[_c('NuxtLink',{staticClass:"logo",attrs:{"to":"/"}},[_c('img',{attrs:{"src":__webpack_require__(47),"alt":"Max Beauty Clinic"}})]),_vm._ssrNode(" "),_vm._ssrNode("<a id=\"moblie-menu\" href=\"javascript:;\""+(_vm._ssrClass(null,{open: _vm.isOpen}))+">","</a>",[(!_vm.isOpen)?_c('fa',{attrs:{"icon":['fas', 'bars']}}):_vm._e(),_vm._ssrNode(" "),(_vm.isOpen)?_c('fa',{attrs:{"icon":['fas', 'times']}}):_vm._e()],2),_vm._ssrNode(" "),_vm._ssrNode("<ul"+(_vm._ssrClass("nav-group",{open: _vm.isOpen}))+">","</ul>",[_vm._ssrNode("<li data-index=\"1\" class=\"nav-item\">","</li>",[_vm._ssrNode("<a href=\"javascript:;\" class=\"nav-item-a\">","</a>",[_vm._ssrNode("關於美仕媞 \n                    "),_c('fa',{attrs:{"icon":['fas', 'angle-down']}})],2),_vm._ssrNode(" "),_vm._ssrNode("<ul"+(_vm._ssrClass("nav-mainMenu",{open: _vm.mainMenuIsOpenIndex == 1}))+">","</ul>",[_vm._ssrNode("<li class=\"nav-mainMenu-item\">","</li>",[_c('NuxtLink',{staticClass:"inside-a",attrs:{"to":"/maxBeauty/about"}},[_vm._v("關於我們")])],1),_vm._ssrNode(" "),_vm._ssrNode("<li class=\"nav-mainMenu-item\">","</li>",[_c('NuxtLink',{staticClass:"nav-subItem-a inside-a",attrs:{"to":"/maxBeauty/team"}},[_vm._v("醫療團隊 "),(_vm.bodyWidth > 996)?_c('fa',{attrs:{"icon":['fas', 'angle-down']}}):_vm._e()],1),_vm._ssrNode(" "),_c('SubMenu',{attrs:{"items":_vm.teamData,"suffix":"醫師"}})],2),_vm._ssrNode(" "),_vm._ssrNode("<li class=\"nav-mainMenu-item\">","</li>",[_c('NuxtLink',{staticClass:"inside-a",attrs:{"to":"/maxBeauty/news"}},[_vm._v("最新消息")])],1),_vm._ssrNode(" "),_vm._ssrNode("<li class=\"nav-mainMenu-item\">","</li>",[_c('NuxtLink',{staticClass:"inside-a",attrs:{"to":"/maxBeauty/doctorsColumn"}},[_vm._v("醫師專欄")])],1),_vm._ssrNode(" "),_vm._ssrNode("<li class=\"nav-mainMenu-item\">","</li>",[_c('NuxtLink',{staticClass:"inside-a",attrs:{"to":"/maxBeauty/price"}},[_vm._v("參考價格")])],1)],2)],2),_vm._ssrNode(" "),_vm._ssrNode("<li data-index=\"2\" class=\"nav-item service-group\">","</li>",[_vm._ssrNode("<a href=\"javascript:;\" class=\"nav-item-a\">","</a>",[_vm._ssrNode("服務項目 \n                    "),_c('fa',{attrs:{"icon":['fas', 'angle-down']}})],2),_vm._ssrNode(" "),_vm._ssrNode("<ul"+(_vm._ssrClass("nav-mainMenu",{open: _vm.mainMenuIsOpenIndex == 2}))+">","</ul>",_vm._l((_vm.service),function(item,index){return _vm._ssrNode("<li class=\"nav-mainMenu-item\">","</li>",[_vm._ssrNode("<a href=\"javascript:;\" class=\"nav-subItem-a inside-a\">","</a>",[_vm._ssrNode(_vm._ssrEscape(_vm._s(item.name)+" ")),_c('fa',{attrs:{"icon":['fas', 'angle-down']}})],2),_vm._ssrNode(" "),_c('SubMenu',{class:{open: _vm.subMenuIsOpenName == item.name},attrs:{"items":item.data}})],2)}),0)],2),_vm._ssrNode(" "),_vm._ssrNode("<li class=\"nav-item\">","</li>",[_c('NuxtLink',{attrs:{"to":"/beautyShare"}},[_vm._v("美麗分享")])],1),_vm._ssrNode(" "),_vm._ssrNode("<li class=\"nav-item\">","</li>",[_c('NuxtLink',{attrs:{"to":"/reservation"}},[_vm._v("預約諮詢")])],1)],2)],2)])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/Header.vue?vue&type=template&id=5e212cd1&
+// CONCATENATED MODULE: ./components/Header.vue?vue&type=template&id=760cc31b&
 
 // EXTERNAL MODULE: ./components/Header-SubMenu.vue + 4 modules
 var Header_SubMenu = __webpack_require__(33);
@@ -782,6 +782,7 @@ var Header_SubMenu = __webpack_require__(33);
   mounted() {
     this.bodyWidth = document.body.clientWidth;
     this.teamData = this.$store.getters['team/getTeamData'];
+    this.service = this.$store.getters['service/getServiceContent'];
   },
 
   watch: {

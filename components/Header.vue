@@ -92,7 +92,8 @@ export default {
     },
     mounted() {
         this.bodyWidth = document.body.clientWidth;
-        this.teamData = this.$store.getters['team/getTeamData'];        
+        this.teamData = this.$store.getters['team/getTeamData'];     
+        this.service = this.$store.getters['service/getServiceContent'];       
     },
     watch: {
         $route(r) {
